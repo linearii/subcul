@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+<img src="/assets/profile.jpg" width="200"/>
+
+Linear (리니어)
+
+어쩔 수 없는 오타쿠.
