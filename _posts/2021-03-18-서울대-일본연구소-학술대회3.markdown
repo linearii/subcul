@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 서울대학교 일본연구소 학술대회 (3)
-categories: essays
+categories: essay
 ---
 
 ## 3부: BL과 후조시를 둘러싼 새로운 담론

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 데빌맨 크라이베이비
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/180307/데빌맨크라이베이비.jpg" width=700 />

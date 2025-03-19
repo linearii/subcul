@@ -1,6 +1,6 @@
 ---
 layout: category
-id: movies
-permalink: /movies/
+id: review
+permalink: /review/
 ---
 

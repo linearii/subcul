@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 이미지의 제국 - 풍경으로서의 일본 애니메이션
-categories: books
+categories: essay
 ---
 
 ### 1.1 속은 자와 속인 자: 국적 은폐의 내셔널리즘

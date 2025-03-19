@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 소녀혁명 우테나
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/180325/소녀혁명우테나.png" width=500 />

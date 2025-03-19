@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 제목없음
-categories: essays
+categories: essay
 hidden: true
 ---
 

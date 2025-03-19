@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 사무라이 참프루
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/180811/사무라이참프루.jpg" width=500 />

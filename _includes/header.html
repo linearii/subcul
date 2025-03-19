@@ -1,6 +1,7 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
+    {%- assign no_display_categories = "review" | split: "," -%}
     {%- assign categories = site.categories | sort -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
@@ -17,7 +18,9 @@
 
         <div class="trigger">
 	  {%- for category in categories -%}
-            <a class="page-link" href="/{{ category[0] }}">{{ category[0] }}</a>
+            {%- unless no_display_categories contains category[0] -%}
+              <a class="page-link" href="/{{ category[0] }}">{{ category[0] }}</a>
+            {%- endunless -%}
           {%- endfor -%}
         </div>
       </nav>

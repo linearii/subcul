@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 하이바네 연맹
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/180307/하이바네연맹.jpeg" width=500 />

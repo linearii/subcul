@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 자본주의 리얼리즘 (1)
-categories: books
+categories: essay
 ---
 
 <img src="{{ site.baseurl }}/thumbnails/201101/자본주의리얼리즘.png" width="300" />

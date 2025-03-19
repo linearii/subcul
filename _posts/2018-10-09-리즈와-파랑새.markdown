@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 리즈와 파랑새
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/181009/리즈와파랑새.jpeg" width=300 />

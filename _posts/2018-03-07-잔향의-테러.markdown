@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 잔향의 테러
-categories: movies
+categories: review
 ---
 
 - 생각보다 엄청나게 뻔한 설정. 서로를 나인이나 일레븐으로 부르는 것에서 이미 뭔가 생체실험의 대상자였던 애들이 살아있는 거구나 하고 바로 짐작할 수 있다.

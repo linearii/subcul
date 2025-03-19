@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 콘크리트 레볼루티오 초인환상
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/181003/콘레보.jpg" width=500 />

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 비평의 역할을 자기 안으로 흡수하기
-categories: essays
+categories: essay
 ---
 
 <img src="{{ site.baseurl }}/thumbnails/210215/디즈니애니메이션특별전.png" width="300" />

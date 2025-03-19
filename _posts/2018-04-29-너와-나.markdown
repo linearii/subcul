@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 너와 나
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/180429/너와나.jpg" width=500 />

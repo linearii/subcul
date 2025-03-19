@@ -1,6 +1,6 @@
 ---
 layout: category
-id: essays
-permalink: /essays/
+id: essay
+permalink: /essay/
 ---
 

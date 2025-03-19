@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 복면계 노이즈
-categories: movies
+categories: review
 ---
 
 - 성우진이 좋아도 도저히 커버되지 않는 영역이 있구나...

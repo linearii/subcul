@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PSYCHO-PASS
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/180307/사이코패스.jpg" width=500 />

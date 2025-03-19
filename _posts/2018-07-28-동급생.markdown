@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 동급생
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/180728/동급생.jpg" width=300 />

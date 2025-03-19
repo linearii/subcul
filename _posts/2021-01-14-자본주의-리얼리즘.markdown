@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 자본주의 리얼리즘 (2)
-categories: books
+categories: essay
 ---
 
-[1편]({{ site.baseurl }}/books/2020/11/01/자본주의-리얼리즘)에서 이어지는 내용
+[1편]({{ site.baseurl }}/essay/2020/11/01/자본주의-리얼리즘)에서 이어지는 내용
 
 ## 견고한 모든 것이 홍보 속으로 사라진다
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 서울대학교 일본연구소 학술대회 (2)
-categories: essays
+categories: essay
 ---
 
 ## 기조강연2 : Otaku/Fans, identify-creating Performance, and the Kinesthetic Experience of Viewing Anime

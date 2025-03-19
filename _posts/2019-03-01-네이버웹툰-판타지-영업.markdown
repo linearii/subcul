@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 개인취향영업; 네이버 판타지 웹툰
-categories: essays
+categories: review
 ---
 
 웹툰 뭐 보냐는 질문을 많이 받아서, 이참에 정리해볼까 하고 쓰는 글.

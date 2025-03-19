@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4월은 너의 거짓말
-categories: movies
+categories: review
 ---
 
 <img src="/thumbnails/180609/키미우소.jpg" width=400 />
