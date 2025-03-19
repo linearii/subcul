@@ -1,0 +1,85 @@
+---
+layout: post
+title: 서울대학교 일본연구소 학술대회 (2)
+categories: essays
+---
+
+## 기조강연2 : Otaku/Fans, identify-creating Performance, and the Kinesthetic Experience of Viewing Anime
+
+애니메이션은 학문적인 발달이 매우 늦는 분야
+
+오늘 강연의 주요 테마
+
+- Rodolph arnheim's theory of isomorphism
+- Judith butler's discourse of performance
+- film vector analysis
+
+예시1 : 세일러문 코스프레 퍼포먼스 비디오
+
+- 실제 애니 오프닝 영상을 보면 다양한 퍼포먼스를 보여주고 있음
+- 귀엽기만 한 게 아니라 적과 싸우며, 강하고 힘있는 캐릭터
+- 관객 또한 본인이 어떤 힘을 부여받은 듯한 느낌을 받을 수 있음
+- 애니메이션 캐릭터 뿐만 아니라 다양한 가공의 인물로 분장을 즐긴다
+- world cosplay summit nagayo, san diego comic-con
+
+예시2 : Young and Fabulous
+
+- Singapore cosplay-themed and coming of age film
+- 성적만 중요시하고 코스프레를 이해하지 못하는 부모님과 갈등을 벌이는 청소년들 이야기
+- 코스프레를 통해 커리어까지 추구!
+
+버틀러의 performance 개념
+
+이들의 퍼포먼스 따라하기에 녹아든 육체적, 운동적 방식
+
+- 내가 아닌 다른 무언가로 나를 표현할 때 어떤 효과가 나타나는가?
+- 예시 : 가면라이더 변신 퍼포먼스를 따라하는 사람들 비디오
+- 예시 : 가면라이더 앱이 있다. 스마트폰 카메라와 QR 코드를 사용해 유사-가상현실에서 변신할 수 있음
+
+Perform and Transform identify
+
+- 예시 : Hetain Patel and Bruce Lee 강연 비디오
+    - 누군가를 따라함으로서 새로운 걸 드러낼 수 있음
+    - Bruce Lee 를 흉내는데 실패하지만, 이 과정을 통해 점점 더 나의 정체성을 알게 되고 나다운 사람으로 변화한다
+- 예시 : Imitated and Imitating Performance (Donald Crafton, 2013)
+    - 과거 디즈니 애니메이터들은 인체의 움직임을 흉내내기 위해 굉장히 많이 노력했었음. (백설공주와 일곱난장이)
+- 예시 : Infectiousness of Performance (Donald Crafton, 2013)
+    - Skeleton Warriers in *Jason And Argonauts(1963)*
+    - 제임스 카메론이 여기서 영향을 받음 → 모션 캡처 기술
+    
+
+Isomorphic Levels in Performance and Perception
+
+- 스크린에 펼쳐지는 배우의 신체 → 시청자들도 운동 감각, 동질감을 느낀다
+- Heather Crow, 2006
+    - 사람은 자기 몸짓을 통제할 수 없다
+    - possessed by the ghost
+    - 자신의 정체성을 바꾸고 싶어하든, 그러지 않든 말하는 방식이 바뀐다
+
+Anime's Intermediate Materials
+
+- not by one and the same artist. 무단으로 외국에 수출되면서 여기에 참여한 스탭들의 이름이 누락됨
+- to be reproduced mechanically
+- 전시 등으로 공개하기 위해 만들어진 게 아님
+- assumption
+    - everyone in a group plays the role of human agency
+        - I do not reduce each material to a specific artist
+    - animes' intermediate materials as Faktura
+        - Faktura is a revelation of an objects' literal materiality, the premise which Russian constructivists explored
+- 여기서 역동성을 표현하기 위해 사용하는 vector (magnitude, direction)
+
+Problematizing...
+
+- Viewing experience and backgrounds in global anime fan communities
+- Phenomenological inscription of mechanical/military motion to the viewer's body through the kinesthetic experience of driving a spacecraft/flying a jet fighter by identifying with the character
+
+Two Tiers of Vocabularies in Animation production
+
+- iconic
+    - perceptually stable in time
+    - relatively easy to describe in a verbal manner
+- kinesthetic
+    - perceptually flexible in time
+    - quite different to describe in a verbal manner
+
+코스플레이어가 수행적 주체라면, 어떤 수행문(performative)을 교란시키고 무엇을 전복하고 있다고 보십니까? 앞서 많은 분들께서 지적했듯, 코스프레는 애니메이션이 구축한 데포르메에 대해 권력/계급관계에 무지한 미메시스에 그치는 경우들이 있기 때문에 궁금합니다.
