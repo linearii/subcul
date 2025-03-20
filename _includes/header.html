@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    {%- assign no_display_categories = "review" | split: "," -%}
+    {%- assign no_display_categories = "" | split: "," -%}
     {%- assign categories = site.categories | sort -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
