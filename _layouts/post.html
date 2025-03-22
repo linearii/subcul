@@ -5,6 +5,9 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    {%- if page.subtitle -%}
+      <h3>{{ page.subtitle }} </h3>
+    {%- endif -%}
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -20,7 +23,7 @@ layout: default
   </div>
 
   {% if page.tags %} {% for tag in page.tags %}
-    <span class="tag" style="color:grey">#{{ tag }}</span>
+     <span class="tag" style="background-color:#ededed; font-size:11pt;">#{{ tag }}</span>
   {% endfor %} {% endif %}
 
   {%- if site.disqus.shortname -%}
