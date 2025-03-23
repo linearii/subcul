@@ -1,0 +1,10 @@
+---
+layout: post
+title: 기타 잔상
+categories: review
+tags: [마차살]
+---
+
+<div id="quoteimage">
+  <img src="/thumbnails/250323/4.jpg"/>
+</div>
