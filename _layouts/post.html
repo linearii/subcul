@@ -23,7 +23,9 @@ layout: default
   </div>
 
   {% if page.tags %} {% for tag in page.tags %}
-     <span class="tag" style="background-color:#ededed; font-size:11pt;">#{{ tag }}</span>
+     <a style="color:inherit;" href="/tags.html/#{{ tag }}">
+       <span class="tag" style="background-color:#ededed; font-size:11pt;">#{{ tag }}</span>
+     </a>
   {% endfor %} {% endif %}
 
   {%- if site.disqus.shortname -%}
