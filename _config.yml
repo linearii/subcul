@@ -24,6 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   서브컬처 관련 글 모음집
 twitter_username: linear_crv
 postype_username: linear
+mastodon:
+- username: linear
+  instance: uri.life
 
 # Build settings
 theme: minima
