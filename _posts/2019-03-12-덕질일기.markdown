@@ -2,6 +2,7 @@
 layout: post
 title: Is Anime an embarrassment?; 애니메이션은 부끄러운 취미인가
 categories: essay
+hidden: true
 ---
 
 애니메이션 문화를 진지하게 다루는 유투버가 한 명쯤은 있지 않을까 하는 의문으로 검색을 해봤다. 그리고 이 [링크](https://youtu.be/HHmw91r1pBs)를 찾아냈다. (내용이 괜찮아서 한글 자막을 붙이고 싶었는데 기능을 열어놓지 않은 것 같았다)
