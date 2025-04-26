@@ -2,6 +2,7 @@
 layout: post
 title: 동쪽의 에덴
 categories: review
+tags: [애니]
 ---
 
 <img src="/thumbnails/180307/동쪽의에덴.jpg" width=400 />

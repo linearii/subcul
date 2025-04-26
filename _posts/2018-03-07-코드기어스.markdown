@@ -2,6 +2,7 @@
 layout: post
 title: 코드기어스 반역의 를르슈
 categories: review
+tags: [애니]
 ---
 
 - 사실 다 안 봤다. 1기는 다 봤고 2기는 첫 화만 봤다.

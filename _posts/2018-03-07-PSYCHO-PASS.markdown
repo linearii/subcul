@@ -2,6 +2,7 @@
 layout: post
 title: PSYCHO-PASS
 categories: review
+tags: [애니]
 ---
 
 <img src="/thumbnails/180307/사이코패스.jpg" width=400 />

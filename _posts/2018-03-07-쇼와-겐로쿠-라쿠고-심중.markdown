@@ -2,6 +2,7 @@
 layout: post
 title: 쇼와 겐로쿠 라쿠고 심중
 categories: review
+tags: [애니]
 ---
 
 <img src="/thumbnails/180307/쇼와겐로쿠라쿠고심중.jpeg" width=300 />

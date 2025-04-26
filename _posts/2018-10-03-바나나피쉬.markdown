@@ -2,6 +2,7 @@
 layout: post
 title: 바나나 피쉬
 categories: review
+tags: [애니]
 ---
 
 <img src="/thumbnails/181003/바나나피쉬.jpeg" width=300 />

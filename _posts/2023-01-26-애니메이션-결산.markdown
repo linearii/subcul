@@ -2,6 +2,7 @@
 layout: post
 title: 2022 4분기 애니메이션 결산
 categories: review
+tags: [애니]
 ---
 
 <img src="{{ site.baseurl }}/thumbnails/230125_movies/86.jpeg" width="300" />

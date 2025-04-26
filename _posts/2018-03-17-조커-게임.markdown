@@ -2,6 +2,7 @@
 layout: post
 title: 조커 게임
 categories: review
+tags: [애니]
 ---
 
 <img src="/thumbnails/180317/조커게임.jpg" width=500 />

@@ -2,6 +2,7 @@
 layout: post
 title: 파프리카
 categories: review
+tags: [애니]
 ---
 
 - '퍼펙트 블루'가 너무 인상적이었어서 이 작품도 볼려고 계속 벼르고 있었고, 영상자료원 놀러간 김에 감상하고 나왔다.

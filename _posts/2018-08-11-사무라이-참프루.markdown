@@ -2,6 +2,7 @@
 layout: post
 title: 사무라이 참프루
 categories: review
+tags: [애니]
 ---
 
 <img src="/thumbnails/180811/사무라이참프루.jpg" width=500 />

@@ -2,6 +2,7 @@
 layout: post
 title: 하이바네 연맹
 categories: review
+tags: [애니]
 ---
 
 <img src="/thumbnails/180307/하이바네연맹.jpeg" width=500 />

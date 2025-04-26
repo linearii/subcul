@@ -2,6 +2,7 @@
 layout: post
 title: 2023 2~4분기 애니메이션 결산
 categories: review
+tags: [애니]
 ---
 
 ### 엘리멘탈

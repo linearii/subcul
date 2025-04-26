@@ -2,6 +2,7 @@
 layout: post
 title: 2020 2분기 애니메이션 결산
 categories: review
+tags: [애니]
 ---
 
 <img src="{{ site.baseurl }}/thumbnails/200624_movies/이윽고네가된다.png" width="500" />

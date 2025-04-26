@@ -2,6 +2,7 @@
 layout: post
 title: 지금 보는 애니메이션
 categories: review
+tags: [애니]
 ---
 
 ### 스카이 크롤러
