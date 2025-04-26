@@ -1,0 +1,28 @@
+---
+layout: post
+title: AI 로 악성 콘텐츠 검열하기
+categories: challenge
+---
+
+circuit breakers:
+an alluring use of machine learning that’s supposed to be able to detoxify the big social platforms, assist human moderators, and stop lies and propaganda in their tracks before they spread
+
+* 컨텐츠 검열을 담당하는 직원들의 정신적 고통. 
+  * [Facebook will pay $52 million in settlement with moderators who developed PTSD on the job - The Verge](https://www.theverge.com/2020/5/12/21255870/facebook-content-moderator-settlement-scola-ptsd-mental-health)
+  * [TikTok sued by former content moderator for allegedly failing to protect her mental health  - The Verge](https://www.theverge.com/2021/12/24/22852817/tiktok-content-moderation-lawsuit-candie-frazier)
+* 근본적으로, ‘이때까지 발생했던 폭력의 사례’를 사용해서 ‘앞으로 발생할 폭력’을 예방하는 방식은 불완전하다.
+* 컨텐츠 모더레이션에 circuit breaker 를 쓰도록 의무화하는 것은 쉽지 않다. 그럼 결국 문제 있는지 없는지 명확한 판단이 서기 전에는 컨텐츠가 널리 퍼지지 않도록 막아야 하기 때문.
+* 의도적으로 유저들을 부딪치게 (알아서 자정작용이 일어나도록) 두는 것도 방법이다. 하지만 마찰이 많은 상황이 항상 이상적이진 않고, 어떨 땐 즉시 제어가 필요할 수도 있다. 어느 정도의 마찰이 적절한지는 고민이 필요.
+
+Video Hashing 
+* 영상을 key frame 으로 쪼갠 다음 각 프레임에 해시를 삽입. 그리고 이미지를 데이터셋과 비교한다. AI 를 활용하지 않는 방식.
+* [PhotoDNA](https://www.microsoft.com/en-us/photodna)
+* 구글, 페이스북은 컨텐츠 모더레이션의 미래는 AI 에 기반한다고 주장. 
+* PhotoDNA 를 만든 Farid 의 반박 : 기술 나올 때까지 기다리는 동안은 어떻게 할 건데? 
+* [How Twitter, YouTube and Facebook could stop the New Zealand massacre video from spreading - CNN](https://edition.cnn.com/2019/03/15/tech/new-zealand-video-viral-social-media/index.html)
+
+Slow Email
+* 우편은 여전히 필수적이지만 커뮤니케이션 용도로 쓰이진 않는다. 대개 고지서나 신문, 홍보물 들이 꽂혀 있음
+* [Pony Messenger](https://www.ponymessenger.com/). Slowly.
+* 온라인에서는 누릴 수 없는 옛 향수. 기다림의 미학
+* [The Subversive Genius of Extremely Slow Email - The Atlantic](https://www.theatlantic.com/technology/archive/2022/01/slow-internet-email/621232/)

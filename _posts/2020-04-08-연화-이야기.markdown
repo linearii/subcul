@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 연화 이야기
-categories: fiction
+categories: challenge
 tags: [trpg]
 ---
 

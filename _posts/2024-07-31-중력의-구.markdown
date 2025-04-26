@@ -2,7 +2,7 @@
 layout: post
 title: 중력의 구
 subtitle: <더 퍼스트 슬램덩크>의 시간을 통과하는 송아라의 이야기 (NCP)
-categories: fiction
+categories: challenge
 tags: [농놀, 2차창작, 송아라]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 어디에 있든 무엇을 하든
 subtitle: 송가네의 역사. 카오루 상의 이야기 (NCP)
-categories: fiction
+categories: challenge
 tags: [농놀, 2차창작, 미야기 카오루]
 ---
 

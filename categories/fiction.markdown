@@ -1,6 +1,6 @@
 ---
 layout: category
-id: fiction
-permalink: /fiction/
+id: challenge
+permalink: /try/
 ---
 
