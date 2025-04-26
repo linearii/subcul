@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WTM Ambassador 가 되었습니다
-categories: challenge
+categories: try
 ---
 
 <img src="{{ site.baseurl }}/thumbnails/wtm_ambassador.png" width="300" />

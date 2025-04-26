@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 당신은 사랑받기 위해 태어난 사람
-categories: essay
+categories: try
 tags: [하마글방]
-hidden: true
 ---
 
 이번주 상담에선 사랑에 대한 이야기를 했다. 선생님은 일과 사랑이 결국 본질적으로 같은 거라고, 같은 감정을 자극하는 거라고 말씀하셨다.

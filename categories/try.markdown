@@ -1,6 +1,6 @@
 ---
 layout: category
-id: challenge
+id: try
 permalink: /try/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 테세우스의 배
-categories: essay
+categories: try
 tags: [하마글방]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 여름놀이
 subtitle: 제주도 무속 신앙을 기반으로 하는 송가네 (NCP)
-categories: challenge
+categories: try
 tags: [농놀, 2차창작, 송가네]
 ---
 

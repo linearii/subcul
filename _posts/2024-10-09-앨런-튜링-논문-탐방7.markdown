@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 앨런 튜링 논문 탐방 - 정리
-categories: challenge
+categories: try
 ---
 
 ### 논문 목록

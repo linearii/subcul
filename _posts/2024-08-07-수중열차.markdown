@@ -2,7 +2,7 @@
 layout: post
 title: 수중열차
 subtitle: 북산고 퀴어 캐해 앤솔로지 참여글 (이달재 - 퀘스쳐너리)
-categories: challenge
+categories: try
 tags: [농놀, 2차창작, 이달재]
 ---
 

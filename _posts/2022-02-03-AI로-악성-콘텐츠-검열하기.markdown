@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI 로 악성 콘텐츠 검열하기
-categories: challenge
+categories: try
 ---
 
 circuit breakers:

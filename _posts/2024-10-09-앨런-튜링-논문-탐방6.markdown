@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 앨런 튜링 논문 탐방 - 체스 (1953)
-categories: challenge
+categories: try
 ---
 
 기계가 체스를 둘 수 있을까? 라는 질문의 의미는 여러가지

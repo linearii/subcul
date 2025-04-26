@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 앨런 튜링 논문 탐방 - 계산 기계와 지능 (1950)
-categories: challenge
+categories: try
 ---
 
 **세 줄 요약**

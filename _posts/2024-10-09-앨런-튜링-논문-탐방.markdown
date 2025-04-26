@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 앨런 튜링 논문 탐방 - 튜링 이전의 배경
-categories: challenge
+categories: try
 ---
 
 ### 라이프니츠

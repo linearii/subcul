@@ -1,7 +1,7 @@
 ---
 layout: post
 title: P와 K
-categories: challenge
+categories: try
 ---
 
 ### K → P
