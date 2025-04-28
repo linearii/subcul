@@ -5,8 +5,7 @@ categories: review
 tags: [영화]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/240424_review
-tags: [영화]/추락의해부.jpeg" width="300" />
+<img src="{{ site.baseurl }}/thumbnails/240424_movies/추락의해부.jpeg" width="300" />
 
 ### 추락의 해부
 
@@ -28,8 +27,7 @@ tags: [영화]/추락의해부.jpeg" width="300" />
 
 개인적으로는 『냉정과 열정 사이』 생각을 많이 했다. 『냉정과 열정 사이』의 IF 버전을 본 거 같았다. 어쩌면 같은 이야기였는지도 모르지.
 
-<img src="{{ site.baseurl }}/thumbnails/240424_review
-tags: [영화]/로봇드림.jpeg" width="200" />
+<img src="{{ site.baseurl }}/thumbnails/240424_movies/로봇드림.jpeg" width="200" />
 
 ### 로봇 드림
 

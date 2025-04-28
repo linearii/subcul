@@ -4,8 +4,7 @@ title: 2024 2분기 영화 결산
 categories: review
 tags: [영화]
 ---
-<img src="{{ site.baseurl }}/thumbnails/240816_review
-tags: [영화]/태풍클럽.jpeg" width="300" />
+<img src="{{ site.baseurl }}/thumbnails/240816_movies/태풍클럽.jpeg" width="300" />
 
 ### 태풍 클럽
 

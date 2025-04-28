@@ -5,8 +5,7 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/240816_review
-tags: [책]/기다릴때우리가하는말들.jpeg" width="300" />
+<img src="{{ site.baseurl }}/thumbnails/240816_books/기다릴때우리가하는말들.jpeg" width="300" />
 
 ### 기다릴 때 우리가 하는 말들
 

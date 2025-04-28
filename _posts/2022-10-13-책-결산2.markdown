@@ -5,8 +5,7 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/221013_review
-tags: [책]/망고와수류탄.jpeg" width="300" />
+<img src="{{ site.baseurl }}/thumbnails/221013_books/망고와수류탄.jpeg" width="300" />
 
 지난 분기에 읽었지만 깜빡하고 넣지 않았고 하마터면 이번 분기 정산 글에서도 깜빡 잊을 뻔한 책 1권을 추가.
 

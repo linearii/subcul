@@ -7,8 +7,7 @@ tags: [영화]
 
 ## 영화
 
-<img src="{{ site.baseurl }}/thumbnails/200330_review
-tags: [영화]/타오르는여인의초상.jpg" height="300" />
+<img src="{{ site.baseurl }}/thumbnails/200330_movies/타오르는여인의초상.jpg" height="300" />
 
 ### 타오르는 여인의 초상
 

@@ -5,8 +5,7 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/240816_review
-tags: [책]/워크는좌파가아니다.jpeg" width="300" />
+<img src="{{ site.baseurl }}/thumbnails/240816_books/워크는좌파가아니다.jpeg" width="300" />
 
 ### 워크는 좌파가 아니다
 

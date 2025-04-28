@@ -5,8 +5,7 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/240207_review
-tags: [책]/퀴어이론산책하기.jpeg" width="300" />
+<img src="{{ site.baseurl }}/thumbnails/240207_books/퀴어이론산책하기.jpeg" width="300" />
 
 ### 퀴어 이론 산책하기
 
@@ -24,12 +23,9 @@ tags: [책]/퀴어이론산책하기.jpeg" width="300" />
 
  "삶 전부를 걸고 자기가 도달할 수 있는 끝을 추구해 본 사람들의 이야기는 언제 읽어도 재미 있고 (그게 꼭 커리어 관련이든 아니든) 이런 자리는 인터뷰어가 얼마나 좋은 질문을 던지는 가도 중요하지만 인터뷰이가 얼마나 이런 자리에 익숙한 지, 자아를 닦아 내놓는 데 능숙한 지도 중요하구나 싶다."
 
-<img src="{{ site.baseurl }}/thumbnails/240207_review
-tags: [책]/스토리설계자.jpeg" width="200" />
-<img src="{{ site.baseurl }}/thumbnails/240207_review
-tags: [책]/작가를위한세계관구축법.jpeg" width="200" />
-<img src="{{ site.baseurl }}/thumbnails/240207_review
-tags: [책]/작가는어떻게읽는가.jpeg" width="200" />
+<img src="{{ site.baseurl }}/thumbnails/240207_books/스토리설계자.jpeg" width="200" />
+<img src="{{ site.baseurl }}/thumbnails/240207_books/작가를위한세계관구축법.jpeg" width="200" />
+<img src="{{ site.baseurl }}/thumbnails/240207_books/작가는어떻게읽는가.jpeg" width="200" />
 
 ### 스토리 설계자, 작가를 위한 세계관 구축법, 작가는 어떻게 읽는가
 
@@ -57,10 +53,8 @@ tags: [책]/작가는어떻게읽는가.jpeg" width="200" />
 
 그리고 『붉은구두를 기다리다』에서도 느꼈던 거지만 소수자를 포용하는 서술이 정말 자연스럽다. 난 아직도 그 단편에 나왔던 왼아버지/오른아버지라는 표현을 좋아한다. 
 
-<img src="{{ site.baseurl }}/thumbnails/240207_review
-tags: [책]/종의기원담.jpeg" width="200" />
-<img src="{{ site.baseurl }}/thumbnails/240207_review
-tags: [책]/다섯번째감각.jpeg" width="200" />
+<img src="{{ site.baseurl }}/thumbnails/240207_books/종의기원담.jpeg" width="200" />
+<img src="{{ site.baseurl }}/thumbnails/240207_books/다섯번째감각.jpeg" width="200" />
 
 ### 종의 기원담 / 다섯 번째 감각
 

@@ -5,15 +5,13 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/230125_review
-tags: [책]/실리콘밸리의목소리.jpeg" width="300" />
+<img src="{{ site.baseurl }}/thumbnails/230125_books/실리콘밸리의목소리.jpeg" width="300" />
 
 ### 실리콘 밸리의 목소리
 
  가볍고 얇고 두 시간 안에 다 읽을 수 있다. 실리콘 밸리에서 일하는 다양한 직업군의 사람들을 인터뷰한 내용으로 모두가 익명으로 참여했다. 덕분에 대외비나 발설 금지 조항 따위에 개의치 않고 자신이 느낀 업계의 모습을 가감없이 전달하는 게 느껴진다. 또 이 업계를 개발자 직군이 과대표하도록 두지 않고 요리사, 마사지사 등 함께 일하는 다른 사람들의 목소리를 많이 담은 것도 좋았다.
 
-<img src="{{ site.baseurl }}/thumbnails/230125_review
-tags: [책]/실리콘밸리의목소리_스크린샷.jpeg" width="300" />
+<img src="{{ site.baseurl }}/thumbnails/230125_books/실리콘밸리의목소리_스크린샷.jpeg" width="300" />
 
 하지만 가장 공감이 갔던 건 이 페이지.
 

@@ -7,8 +7,7 @@ tags: [책]
 
 
 ### 명정사십년
-<img src="{{ site.baseurl }}/thumbnails/220727_review
-tags: [책]/명정사십년.jpeg" width="200" />
+<img src="{{ site.baseurl }}/thumbnails/220727_books/명정사십년.jpeg" width="200" />
 
 태어나서 처음으로 완독한 세로쓰기 책. 
 

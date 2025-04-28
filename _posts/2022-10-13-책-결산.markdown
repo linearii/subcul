@@ -5,8 +5,7 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/221013_review
-tags: [책]/뒷전의주인공.jpeg" width="300" />
+<img src="{{ site.baseurl }}/thumbnails/221013_books/뒷전의주인공.jpeg" width="300" />
 
 지난 분기에 읽었지만 깜빡하고 포함시키지 않은 책 두 권 먼저.
 
@@ -22,8 +21,7 @@ tags: [책]/뒷전의주인공.jpeg" width="300" />
 
 
 ### 두더지 잡기
-<img src="{{ site.baseurl }}/thumbnails/221013_review
-tags: [책]/두더지잡기.jpeg" width="200" />
+<img src="{{ site.baseurl }}/thumbnails/221013_books/두더지잡기.jpeg" width="200" />
 
 '나'로부터 탈피하는 에세이는 어떻게 가능한가를 한참 고민하던 시기가 있었다. '나'에 대해 말하는 것도, '나'에서 빠져나오지 못하는 에세이를 읽는 것도 견딜 수 없게 지긋지긋해서 서점에 있는 거의 모든 에세이를 뒤적였다. 그리고 이 책을 샀다.
 
@@ -47,8 +45,7 @@ tags: [책]/두더지잡기.jpeg" width="200" />
 다 읽지는 못했지만 이번 분기에 가장 **읽으려고 노력했던** 책. 근데 정말 무리였다. 공산당 선언 본문까지 가지도 못했고 서설만 한 달을 읽다가 항복 선언하고 내려놓았다. 정작 본문은 그렇게 어려운 텍스트가 아닐 것 같은데 (그랬다면 널리 퍼지지도 못했을 테니) 이 책의 절반 이상을 차지하는 서설을 통째로 넘겨 버리면 책을 읽었다는 느낌이 안 들잖아요. 억울하다. 몹시 억울해. 
  
 ### 히카르두 헤이스가 죽은 해
-<img src="{{ site.baseurl }}/thumbnails/221013_review
-tags: [책]/히카르두헤이스가죽은해.jpeg" width="200" />
+<img src="{{ site.baseurl }}/thumbnails/221013_books/히카르두헤이스가죽은해.jpeg" width="200" />
 
 페소아에 대한 팬심으로 구매했다가 드디어 완독했다. 
 
