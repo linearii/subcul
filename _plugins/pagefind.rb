@@ -6,7 +6,7 @@ module Jekyll
 
     def generate(site)
       Jekyll::Hooks.register :site, :post_write do |_site|
-        command = './_bin/pagefind --site _site'
+        command = './_bin/pagefind_prod --site _site'
         puts "Running: #{command}"
         system(command)
       end
