@@ -4,7 +4,7 @@ email: linear.sldk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   오늘도 도전한다 블로그 대통합
 url: "https://linearlog.com"
-image: "/assets/profile.jpg"
+logo: /assets/profile.jpg
 theme: minima
 
 postype:
