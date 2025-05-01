@@ -1,18 +1,18 @@
 <ul class="social-media-list"> 
-  {%- if site.postype_username -%}
+  {%- if site.postype -%}
     <li>
-      <a href="https://postype.com/@{{ site.postype_username| cgi_escape | escape }}">
+      <a href="https://postype.com/@{{ site.postype.username| cgi_escape | escape }}">
       <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
         <path d="M85 0h330c46.94 0 85 38.06 85 85v330c0 46.94-38.06 85-85 85H85c-46.94 0-85-38.06-85-85V85C0 38.06 38.06 0 85 0z"/><path fill="#fff" d="M295.23 118.54c55.65 0 100.77 45.12 100.77 100.78S350.88 320.1 295.23 320.1l-36.82.06v73.38H221.7V159.62h-31.98v233.92H153V159.62h-32v-41.08h174.23zm3.15 41.25H258.5v118.25h39.88c32.65 0 59.12-26.47 59.12-59.12s-26.47-59.13-59.12-59.13z"/>
       </svg>
-      <span class="username">{{ site.postype_username| escape }}</span></a>
+      <span class="username">{{ site.postype.username | escape }}</span></a>
     </li>
   {%- endif -%}
-  {%- if site.twitter_username -%}
+  {%- if site.twitter -%}
     <li>
-      <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+      <a href="https://www.twitter.com/{{ site.twitter.username| cgi_escape | escape }}">
         <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg>
-        <span class="username">{{ site.twitter_username| escape }}</span>
+        <span class="username">{{ site.twitter.username | escape }}</span>
       </a>
     </li>
   {%- endif -%}
