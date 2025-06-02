@@ -20,7 +20,7 @@ jobs:
       - name: Generate Jekyll post from issue
         run: |
           TITLE="${{ github.event.issue.title }}"
-          SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | sed 's/[^a-z0-9-]//g')
+          SLUG=$(echo "$TITLE" | tr ' ' '-')
           DATE=$(date -d "${{ github.event.issue.created_at }}" +"%Y-%m-%d")
           FILENAME="_posts/${DATE}-${SLUG}.md"
 
@@ -29,7 +29,8 @@ jobs:
           echo "---" > "$FILENAME"
           echo "layout: post" >> "$FILENAME"
           echo "categories: essay" >> "$FILENAME"
-          echo "title: \"$TITLE\"" >> "$FILENAME"
+          echo "title: |" >> "$FILENAME"
+          echo "  $TITLE" >> "$FILENAME"
 
           LABELS=$(echo "${{ toJson(github.event.issue.labels) }}" | jq -r 'map(.name) | join(", ")')
           if [ -n "$LABELS" ]; then
