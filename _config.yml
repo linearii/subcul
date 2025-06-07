@@ -15,6 +15,7 @@ mastodon:
 twitter:
   username: linear_crv
   card: summary
+google_analytics: G-SQE6M9YXWY
 
 plugins:
 - jekyll-seo-tag
