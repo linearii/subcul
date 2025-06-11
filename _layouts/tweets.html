@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="tweets-list">
+  <h1>{{ page.title }}</h1>
+  {% assign lines = page.content | newline_to_br | split: '<br />' %}
+  {% assign date = "" %}
+  {% assign content = "" %}
+  {% assign entries = "" %}
+
+  {% for line in lines %}
+    {% assign parts = line | strip_html | split: '-' %}
+  
+    {% if parts.size >= 3 %}
+      {% if date != "" and content != "" %}
+        <!-- 이전 날짜와 콘텐츠가 있으면 이를 테이블에 추가 -->
+        {% assign entries = entries | append: "<tr><td class='tweets-list-date'>" | append: date | append: "</td><td class='content-cell'>" | append: content | append: "</td></tr>" %}
+      {% endif %}
+    
+      <!-- 새로운 날짜와 콘텐츠 준비 -->
+      {% assign date = line | strip_html %}
+      {% assign content = "" %}
+    {% else %}
+      {% assign content = content | append: line %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- 마지막 날짜와 콘텐츠를 추가 -->
+  {% if date != "" and content != "" %}
+    {% assign entries = entries | append: "<tr><td class='tweets-list-date'>" | append: date | append: "</td><td class='content-cell'>" | append: content | append: "</td></tr>" %}
+  {% endif %}
+
+  <!-- 출력된 테이블 -->
+  <table>
+    <thead>
+      <tr>
+        <th width="100">Date</th>
+        <th>Tweet</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ entries }}
+    </tbody>
+  </table>
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</div>

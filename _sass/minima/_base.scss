@@ -264,3 +264,45 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+/*
+ * Tweets Archive
+ */
+
+.tweets-archive {
+
+}
+
+.tweets-subject-list {
+  margin-left: 0px;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+.tweets-subject {
+  margin-right: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #AFCBEB;
+  background-color: #E6F0FA;
+  color: #2F4F6F;
+  border-radius: 12px;
+  padding: 3px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.tweets-subject:hover {
+  background-color: #D0E3F2;
+  border-color: #8FB5DB;
+}
+
+.tweets-list {
+  table, tr, td, th {
+    border: none;
+  }
+}
+
+.tweets-list-date {
+  color: #9CA3AF;
+}
