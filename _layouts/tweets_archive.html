@@ -6,9 +6,8 @@ layout: default
   {% assign from_year = page.from %}
   {% assign to_year = page.to %}
   {% for year in (from_year..to_year) %}
-    {% assign year_dir = year | append: "" %}
-    {% assign folder_path = '_posts/' | append: page.subdir | append: '/' | append: year_dir %}
-    {% assign posts = site.posts | where_exp: "post", "post.path contains folder_path" | sort: "date" %}
+    {% assign year_str = year | append: "" %}
+    {% assign posts = site.categories[page.subdir] | where_exp: "post", "post.path contains year_str" | sort: "date" %}
     {% if posts != empty %}
       <h3>{{ year }}</h3>
       <ul class="tweets-subject-list">

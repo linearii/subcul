@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: try
+categories: twitter_archive
 hidden: true 
 title: 작은 아씨들(영화)
 ---

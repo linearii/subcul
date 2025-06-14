@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: try
+categories: twitter_archive
 hidden: true 
 title: 강유원, 역사고전강의
 ---

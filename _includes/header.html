@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
-    {%- assign no_display_categories = "" | split: "," -%}
+    {%- assign no_display_categories = "twitter_archive" | split: "," -%}
     {%- assign categories = site.categories | sort -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     <nav class="site-nav">
@@ -9,7 +9,7 @@
           <img src="/assets/search.png" width="20"/>
         </a>
         {%- if categories -%}
-	  {%- for category in categories -%}
+          {%- for category in categories -%}
             {%- unless no_display_categories contains category[0] -%}
               <a class="page-link" href="/{{ category[0] }}">{{ category[0] }}</a>
             {%- endunless -%}

@@ -1,6 +1,6 @@
 ---
 layout: tweets
-categories: try
+categories: twitter_archive
 hidden: true 
 title: 사소한 일기
 ---

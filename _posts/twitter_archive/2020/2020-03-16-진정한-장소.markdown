@@ -1,6 +1,6 @@
 ---
 layout: tweets
-categories: try
+categories: twitter_archive
 hidden: true 
 title: 아니 에르노, 진정한 장소
 ---

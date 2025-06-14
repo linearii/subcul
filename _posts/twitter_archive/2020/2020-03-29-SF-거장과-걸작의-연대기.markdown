@@ -1,6 +1,6 @@
 ---
 layout: tweets
-categories: try
+categories: twitter_archive
 hidden: true 
 title: SF 거장과 걸작의 연대기
 ---

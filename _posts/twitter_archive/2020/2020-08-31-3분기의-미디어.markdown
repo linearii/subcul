@@ -1,6 +1,6 @@
 ---
 layout: tweets
-categories: try
+categories: twitter_archive
 hidden: true 
 title: 3분기의 영화/애니/만화/음악
 ---
