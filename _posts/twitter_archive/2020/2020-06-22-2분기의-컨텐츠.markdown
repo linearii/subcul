@@ -2,7 +2,7 @@
 layout: tweets
 categories: twitter_archive
 hidden: true 
-title: 2분기의 영화/애니/만화/음악
+title: 2분기의 컨텐츠
 ---
 
 2020-04-11
