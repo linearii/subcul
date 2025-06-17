@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 여행지에서 전하는 텍스트
+title: 여행일기
 categories: essay
 hidden: true
 ---

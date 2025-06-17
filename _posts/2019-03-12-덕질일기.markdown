@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is Anime an embarrassment?; 애니메이션은 부끄러운 취미인가
+title: 애니메이션은 부끄러운 취미인가
 categories: essay
 hidden: true
 ---
