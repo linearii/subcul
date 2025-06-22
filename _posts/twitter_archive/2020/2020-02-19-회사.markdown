@@ -2,7 +2,7 @@
 layout: tweets
 categories: twitter_archive
 hidden: true 
-title: 회사
+title: 회사/개발/IT
 ---
 
 2020-02-19
