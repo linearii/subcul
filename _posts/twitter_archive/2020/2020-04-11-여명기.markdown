@@ -2,7 +2,7 @@
 layout: tweets
 categories: twitter_archive
 hidden: true 
-title: 여명기
+title: 팀 총명기, 여명기
 ---
 
 2020-04-11

@@ -2,7 +2,7 @@
 layout: tweets
 categories: twitter_archive
 hidden: true 
-title: 좋은 시체가 되고 싶어
+title: 케이틀린 도티, 좋은 시체가 되고 싶어
 ---
 
 2021-01-09
