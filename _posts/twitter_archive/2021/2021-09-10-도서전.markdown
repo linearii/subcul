@@ -2,7 +2,7 @@
 layout: tweets
 categories: twitter_archive
 hidden: true 
-title: 2021 도서전
+title: 서울국제도서전
 ---
 
 2021-09-10
