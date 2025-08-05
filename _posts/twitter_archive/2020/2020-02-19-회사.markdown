@@ -1,7 +1,8 @@
 ---
 layout: tweets
 categories: twitter_archive
-hidden: true 
+hidden: true
+disable_search: true
 title: 회사/개발/IT
 ---
 
