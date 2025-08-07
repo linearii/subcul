@@ -9,9 +9,10 @@ layout: default
   {% assign entries = "" %}
 
   {% for line in lines %}
-    {% assign parts = line | strip_html | split: '-' %}
+    {% assign parts = line | strip_html | strip | split: '-' %}
+    {% assign datePart = parts[0] %}
   
-    {% if parts.size >= 3 %}
+    {% if parts.size >= 3 and datePart.size == 4 %}
       {% if date != "" and content != "" %}
         <!-- 이전 날짜와 콘텐츠가 있으면 이를 테이블에 추가 -->
         {% assign entries = entries | append: "<tr><td class='tweets-list-date'>" | append: date | append: "</td><td class='content-cell'>" | append: content | append: "</td></tr>" %}

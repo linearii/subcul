@@ -1,0 +1,18 @@
+---
+layout: tweets
+categories: twitter_archive
+hidden: true 
+title: Gianmarco Soresi
+---
+
+2024-04-21
+어떤 여성 분이 자기 서른 살 생일 때 영화관 대관해서 친구들 초대하고 트와일라잇을 틀어놓은 다음 본인이 마이크 잡고 록키 호러 픽쳐 쇼 스타일로 코멘터리 달면서 놀았다는 썰을 보고 기개에 감복함
+
+근데 그 썰의 정점은 그때 생일파티에서 친구가 소개시켜 준 남자랑 지금 사귀는 중이라는 거였어 ㅋㅋㅋㅋㅋㅋㅋㅋ
+
+[숏츠](https://youtube.com/shorts/HtdEPU3L2f4?si=Z2-woFJfGQ9U91Zn) 한 열 댓 번 봤는데도 웃기다
+
+2024-04-29
+요즘 자주 보는 스탠드업 [코미디 아저씨](https://youtube.com/shorts/9ptRUZapKLo?si=IAV-EEV8X6toDgsb)가 있는데 숏츠 하나하나가 너무 웃김
+
+[이것](https://youtu.be/4zLbYt3PH-Y?si=N9ydstWc5Qf1_xym)도 어제 한 세 번 돌려봤음
