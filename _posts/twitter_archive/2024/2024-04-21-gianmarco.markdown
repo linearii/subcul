@@ -16,3 +16,11 @@ title: Gianmarco Soresi
 요즘 자주 보는 스탠드업 [코미디 아저씨](https://youtube.com/shorts/9ptRUZapKLo?si=IAV-EEV8X6toDgsb)가 있는데 숏츠 하나하나가 너무 웃김
 
 [이것](https://youtu.be/4zLbYt3PH-Y?si=N9ydstWc5Qf1_xym)도 어제 한 세 번 돌려봤음
+
+2024-05-04
+<img src="/thumbnails/240504/1.jpeg" />
+요즘 재밌게 보고 있는 스탠드업 코미디 아저씨를 보며 이 분 왜 재밌지 어디가 매잼 포인트지 궁금했는데 오늘 한가지를 깨달음 이분 코미디 쇼의 관중이 상당히 내 취향 사람들임
+
+2024-05-24
+<img src="/thumbnails/240524/1.jpg" />
+오늘도 좋아하는 코미디언의 영상 클립을 돌아다니며 마자마자 박수를 친다
