@@ -24,3 +24,8 @@ title: Gianmarco Soresi
 2024-05-24
 <img src="/thumbnails/240524/1.jpg" />
 오늘도 좋아하는 코미디언의 영상 클립을 돌아다니며 마자마자 박수를 친다
+
+2024-07-05
+[Drag Queens vs. Priests | Gianmarco Soresi | Stand Up Comedy](https://youtu.be/Rc8scjjpprE?si=8-qQr-ubT6wI0rXP)
+
+자막 없이 이 정도 스피드의 영어를 한방에 알아듣진 못하는데도 너무 웃겨서 보고보고 또 돌려봄
