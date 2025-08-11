@@ -2,19 +2,13 @@ title: Linear
 author: Linear
 email: linear.sldk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  오늘도 도전한다 블로그 대통합
+  일기, 독서 기록, 이것저것의 아카이빙
 url: "https://linearlog.com"
 logo: /assets/profile.jpg
 theme: minima
 
 postype:
   username: linear
-mastodon:
-- username: linear
-  instance: uri.life
-twitter:
-  username: linear_crv
-  card: summary
 google_analytics: G-SQE6M9YXWY
 
 plugins:
