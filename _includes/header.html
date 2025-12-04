@@ -1,11 +1,18 @@
 <style>
-  /* 기본 스타일 */
-  .nav-container {
+  .site-nav {
+    display: flex;
+    flex-direction: row; /* 기본 가로 나열 */
+    flex-wrap: nowrap;
+    align-items: center;     /* baseline 문제 해결 */
+    justify-content: flex-start;
+  }
+
+  .nav-dropdown-container {
     position: relative;
     display: inline-block;
   }
 
-  .nav-button {
+  .nav-dropdown-button {
     color: black;
     cursor: pointer;
     user-select: none;
@@ -16,9 +23,10 @@
     color: black;
     display: none;
     position: absolute;
+    right: 0;
     border: 1px solid #ddd;
     border-radius: 4px;
-    min-width: 160px;
+    min-width: 120px;
     line-height: 40px;
   }
 
@@ -31,30 +39,37 @@
   .dropdown a:hover {
     background-color: #eee;
   }
+
+  .dropdown-menu {
+    text-align: right;
+    padding-right: 18px;
+  }
 </style>
 
-<header class="site-header" role="banner">
+<header class="site-header">
   <div class="wrapper">
     {%- assign no_display_categories = "twitter_archive" | split: "," -%}
     {%- assign categories = site.categories | sort -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="/{{ relative_url }}">{{ site.title | escape }}</a>
     <nav class="site-nav">
-      <div class="trigger">
-        <a class="page-link" href="/search">
-          <img src="/assets/search.png" width="20"/>
-        </a>
+      <a class="page-link" href="/search">
+        <img src="/assets/search.png" width="20"/>
+      </a>
 
-        <div class="nav-container">
-          <div class="nav-button" onclick="toggleDropdown()">posts ▾</div>
+      <div class="nav-dropdown-container">
+        <div class="nav-dropdown-button" onclick="toggleDropdown()">posts ▾</div>
 
-          <div id="categoryDropdown" class="dropdown">
+        <div id="categoryDropdown" class="dropdown">
+          <div class="dropdown-menu">
             <a href="/all">all</a>
-            {% for category in categories %}
-              {%- unless no_display_categories contains category[0] -%}
-                <a href="/{{ category[0] }}">{{ category[0] }}</a>
-              {%- endunless -%}
-            {% endfor %}
           </div>
+          {% for category in categories %}
+            {%- unless no_display_categories contains category[0] -%}
+              <div class="dropdown-menu">
+                <a href="/{{ category[0] }}">{{ category[0] }}</a>
+              </div>
+            {%- endunless -%}
+          {% endfor %}
         </div>
       </div>
     </nav>
@@ -70,7 +85,7 @@
   // 영역 밖 클릭 시 드롭다운 닫기
   document.addEventListener("click", function(e) {
     const dropdown = document.getElementById("categoryDropdown");
-    const button = document.querySelector(".nav-button");
+    const button = document.querySelector(".nav-dropdown-button");
 
     // 버튼 클릭이 아니라면 닫기
     if (!button.contains(e.target)) {
