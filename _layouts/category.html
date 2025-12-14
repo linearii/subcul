@@ -7,7 +7,7 @@ layout: default
     <h2 class="post-list-heading">{{ page.id | capitalize }}</h2>
     {%- assign posts = site.categories[page.id] | where:"hidden", nil -%}
     {%- if page.id == "all" -%}
-      {%- assign posts = site.posts -%}
+      {%- assign posts = site.posts | where:"hidden", nil -%}
     {%- endif -%}
     <ul class="post-list">
       {%- for post in posts -%}
