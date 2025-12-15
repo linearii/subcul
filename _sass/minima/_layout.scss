@@ -29,7 +29,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -168,13 +168,62 @@
   }
 }
 
+/*
+ * Dropdown
+ */
 
+.site-nav {
+  display: flex;
+  flex-direction: row; /* 기본 가로 나열 */
+  flex-wrap: nowrap;
+  align-items: center;     /* baseline 문제 해결 */
+  justify-content: flex-start;
+}
+
+.nav-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-dropdown-button {
+  color: black;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dropdown {
+  background: white;
+  color: black;
+  display: none;
+  position: absolute;
+  right: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 120px;
+  line-height: 40px;
+}
+
+.dropdown a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dropdown :hover {
+  background-color: #eee;
+}
+
+.dropdown-menu {
+  text-align: right;
+  padding-right: 18px;
+}
 
 /**
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: $spacing-unit * 0.5 0;
   flex: 1;
 }
 
@@ -183,7 +232,7 @@
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  @include relative-font-size(1.5);
 }
 
 .post-list {
@@ -191,21 +240,25 @@
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 0.2;
+    display: flex;
   }
 }
 
 .post-meta {
+  flex: 0 0 130px;
   font-size: $small-font-size;
   color: $grey-color;
 }
 
 .post-link {
-  display: block;
-  @include relative-font-size(1.5);
 }
 
-
+.post-tag {
+  color: inherit;
+  background-color: #ededed;
+  font-size: $small-font-size;
+}
 
 /**
  * Posts
