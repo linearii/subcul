@@ -1,0 +1,24 @@
+<section class="card-grid-section">
+  <div class="card-grid">
+    {% for card in data.sections %}
+      <article class="card">
+        <header class="card-header">
+          <h4 class="card-title">{{ card.title }}</h4>
+          {% if card.tags %}
+            <div class="card-keyword">
+              {% for tag in card.tags %}
+                <span>#{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </header>
+
+        <ul class="card-items">
+          {% for item in card.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
+  </div>
+</section>

@@ -304,3 +304,40 @@
     }
   }
 }
+
+/*
+ * Cards
+ */
+
+.card-grid {
+  column-count: 1;
+  column-gap: 24px;
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem;
+  background: #fff;
+  break-inside: avoid;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 900px) {
+  .card-grid {
+    column-count: 2;
+  }
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-keyword {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
