@@ -3,6 +3,7 @@ layout: post
 title: 제목없음
 categories: essay
 hidden: true
+disable_search: true
 ---
 
 언제쯤 애니메이션 오타쿠라고 아무 망설임 없이 나를 소개할 수 있을까.

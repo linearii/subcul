@@ -3,6 +3,7 @@ layout: post
 title: 제목없음
 categories: essay
 hidden: true
+disable_search: true
 ---
 
 『너와 나』 마지막 화에서 결국 울고 말았다.

@@ -7,9 +7,6 @@ url: "https://linearlog.com"
 logo: /assets/profile.jpg
 theme: minima
 
-postype:
-  username: linear
-
 plugins:
 - jekyll-seo-tag
 

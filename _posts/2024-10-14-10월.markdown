@@ -3,6 +3,7 @@ layout: post
 title: 10월
 categories: essay
 hidden: true
+disable_search: true
 ---
 
 결국은 써야 할 거 같지. SNS 인생 돌아보기 같은 글을...

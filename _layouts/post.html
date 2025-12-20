@@ -15,18 +15,27 @@ layout: default
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+    {% if page.disable_search %}
+      <aside data-pagefind-ignore="all">
+        {{ content }}
+      </aside>
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 
-  {% if page.tags %} {% for tag in page.tags %}
+  {% if page.tags %}
+    {% for tag in page.tags %}
      <a style="color:inherit;" href="/tags.html/#{{ tag }}">
        <span class="tag" style="background-color:#ededed; font-size:11pt;">#{{ tag }}</span>
      </a>
-  {% endfor %} {% endif %}
+    {% endfor %}
+  {% endif %}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

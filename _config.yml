@@ -7,8 +7,6 @@ url: "https://linearlog.com"
 logo: /assets/profile.jpg
 theme: minima
 
-postype:
-  username: linear
 google_analytics: G-SQE6M9YXWY
 
 plugins:
