@@ -1,0 +1,159 @@
+ 
+/*
+ * Quote Images
+ */
+
+#quoteimage {
+  float: left;
+  width: 40%;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  #quoteimage {
+    width: 100%;
+    float: none;
+  }
+}
+
+/*
+ * Quote Memo
+ */
+
+#quotememo {
+  color: darkgreen;
+}
+
+
+/*
+ * Tweets Archive
+ */
+
+.tweets-archive {
+
+}
+
+.tweets-subject-list {
+  margin-left: 0px;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+.tweets-subject {
+  margin-right: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #AFCBEB;
+  background-color: #E6F0FA;
+  color: #2F4F6F;
+  border-radius: 12px;
+  padding: 3px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.tweets-subject:hover {
+  background-color: #D0E3F2;
+  border-color: #8FB5DB;
+}
+
+.tweets-list {
+  table, tr, td, th {
+    border: none;
+  }
+}
+
+.tweets-list-date {
+  color: #9CA3AF;
+}
+
+
+/*
+ * Cards
+ */
+
+.card-grid {
+  column-count: 1;
+  column-gap: 24px;
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem;
+  background: #fff;
+  break-inside: avoid;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 900px) {
+  .card-grid {
+    column-count: 2;
+  }
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-keyword {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+
+/*
+ * Dropdown
+ */
+
+.site-nav {
+  display: flex;
+  flex-direction: row; /* 기본 가로 나열 */
+  flex-wrap: nowrap;
+  align-items: center;     /* baseline 문제 해결 */
+  justify-content: flex-start;
+}
+
+.nav-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-dropdown-button {
+  color: black;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dropdown {
+  background: white;
+  color: black;
+  display: none;
+  position: absolute;
+  right: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 120px;
+  line-height: 40px;
+}
+
+.dropdown a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dropdown :hover {
+  background-color: #eee;
+}
+
+.dropdown-menu {
+  text-align: right;
+  padding-right: 18px;
+}
