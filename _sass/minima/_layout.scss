@@ -168,56 +168,6 @@
   }
 }
 
-/*
- * Dropdown
- */
-
-.site-nav {
-  display: flex;
-  flex-direction: row; /* 기본 가로 나열 */
-  flex-wrap: nowrap;
-  align-items: center;     /* baseline 문제 해결 */
-  justify-content: flex-start;
-}
-
-.nav-dropdown-container {
-  position: relative;
-  display: inline-block;
-}
-
-.nav-dropdown-button {
-  color: black;
-  cursor: pointer;
-  user-select: none;
-}
-
-.dropdown {
-  background: white;
-  color: black;
-  display: none;
-  position: absolute;
-  right: 0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  min-width: 120px;
-  line-height: 40px;
-}
-
-.dropdown a {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.dropdown :hover {
-  background-color: #eee;
-}
-
-.dropdown-menu {
-  text-align: right;
-  padding-right: 18px;
-}
 
 /**
  * Page content
@@ -303,41 +253,4 @@
       @include relative-font-size(1.125);
     }
   }
-}
-
-/*
- * Cards
- */
-
-.card-grid {
-  column-count: 1;
-  column-gap: 24px;
-  gap: 1rem;
-}
-
-.card {
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 1rem;
-  background: #fff;
-  break-inside: avoid;
-  margin-bottom: 20px;
-}
-
-@media (min-width: 900px) {
-  .card-grid {
-    column-count: 2;
-  }
-}
-
-.card-header {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.card-keyword {
-  color: #6b7280;
-  font-size: 0.9rem;
-  margin-bottom: 10px;
 }
