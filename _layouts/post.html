@@ -37,6 +37,8 @@ layout: default
     {% endfor %}
   {% endif %}
 
+  {%- include iine.html -%}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
