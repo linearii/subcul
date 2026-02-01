@@ -9,10 +9,17 @@ layout: default
       <h3>{{ page.subtitle }} </h3>
     {%- endif -%}
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
+      {%- if page.pin -%}
+        <time class="dt-last-modified" datetime="{{ page.last-modified-date | date_to_xmlschema }}" itemprop="dateLastModified">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          Last modified : {{ page.last-modified-date | date: date_format }}
+        </time>
+      {%- else -%}
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+      {%- endif -%}
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
