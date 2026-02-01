@@ -9,22 +9,33 @@ layout: default
     {%- if page.id == "all" -%}
       {%- assign posts = site.posts | where:"hidden", nil -%}
     {%- endif -%}
+    {%- assign pinned_posts = posts | where:"pin", true -%}
+
     <ul class="post-list">
-      {%- for post in posts -%}
+      {%- for post in pinned_posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
         <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
+          {{ post.title | escape }} 📌
         </a>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-        <!-- {% if post.tags %} {% for tag in post.tags %}
-          <a class="post-tag" href="/tags.html/#{{ tag }}">
-            <span>#{{ tag }}</span>
-          </a>
-        {% endfor %} {% endif %} -->
       </li>
+      {%- endfor -%}
+
+      {%- for post in posts -%}
+        {%- unless post.pin -%}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endunless -%}
       {%- endfor -%}
     </ul>
 
