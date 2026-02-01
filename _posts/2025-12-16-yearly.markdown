@@ -5,5 +5,5 @@ tags: [회고]
 categories: review
 ---
 
-{% assign data=site.data.2025_yearly %}
+{% assign data=site.data.yearly_2025 %}
 {% include cards.html data=data %}

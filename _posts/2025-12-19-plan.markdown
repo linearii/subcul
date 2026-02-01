@@ -4,5 +4,5 @@ title: "📅 2026 목표"
 categories: review
 ---
 
-{% assign data=site.data.2026_plan %}
+{% assign data=site.data.plan_2026 %}
 {% include cards.html data=data %}
