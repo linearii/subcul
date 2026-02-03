@@ -23,6 +23,7 @@ jobs:
       - name: Generate micro post from issue
         run: |
           LABELS=$(jq -r 'map(.name) | join(", ")' <<< '${{ toJson(github.event.issue.labels) }}')
+          echo "Labels: $LABELS"
 
           if ! echo "$LABELS" | grep -qw "micro"; then
             echo "Not a micro issue. Skipping."
@@ -41,19 +42,20 @@ jobs:
 
           FILENAME_DATE=$(date -d "$CREATED_AT" +"%Y-%m-%d-%H%M")
           FILENAME="_micro/${FILENAME_DATE}.md"
+          HAS_TIME=true
 
           echo "Creating micro post: $FILENAME"
 
           mkdir -p _micro
 
-          cat <<EOF > "$FILENAME"
----
-date: $DATE
-has_time: true
----
-
-$BODY
-EOF
+          {
+            echo "---"
+            echo "date: $DATE"
+            echo "has_time: $HAS_TIME"
+            echo "---"
+            echo ""
+            echo "$BODY"
+          } > "$FILENAME"
 
       - name: Commit and push changes
         run: |
