@@ -2,7 +2,11 @@ name: Issue to Micro Post
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened]
+
+concurrency:
+  group: content-publish
+  cancel-in-progress: false
 
 jobs:
   micro:
@@ -38,9 +42,9 @@ jobs:
           fi
 
           CREATED_AT="${{ github.event.issue.created_at }}"
-          DATE=$(date -d "$CREATED_AT" +"%Y-%m-%d %H:%M")
+          DATE=$(TZ=Asia/Seoul date -d "$CREATED_AT" +"%Y-%m-%d %H:%M")
 
-          FILENAME_DATE=$(date -d "$CREATED_AT" +"%Y-%m-%d-%H%M")
+          FILENAME_DATE=$(TZ=Asia/Seoul date -d "$CREATED_AT" +"%Y-%m-%d-%H%M")
           FILENAME="_micro/${FILENAME_DATE}.md"
           HAS_TIME=true
 
@@ -61,6 +65,7 @@ jobs:
         run: |
           git add _micro
           git commit -m "Add micro post from issue #${{ github.event.issue.number }}"
+          git pull --rebase
           git push
 
       - name: Close issue
