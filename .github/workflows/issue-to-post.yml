@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate Jekyll post from issue
         run: |
-          LABELS=$(echo ${{ toJson(github.event.issue.labels) }} | jq -r 'map(.name) | join(", ")')
+          LABELS=$(jq -r 'map(.name) | join(", ")' <<< '${{ toJson(github.event.issue.labels) }}')
           
           if echo "$LABELS" | grep -qw "micro"; then
             echo "Issue labeled as micro. Skipping post generation."
