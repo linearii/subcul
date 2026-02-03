@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate micro post from issue
         run: |
-          LABELS=$(echo '${{ toJson(github.event.issue.labels) }}' | jq -r 'map(.name) | join(" ")')
+          LABELS=$(echo ${{ toJson(github.event.issue.labels) }} | jq -r 'map(.name) | join(" ")')
 
           if ! echo "$LABELS" | grep -qw "micro"; then
             echo "Not a micro issue. Skipping."
