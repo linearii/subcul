@@ -7,7 +7,11 @@ layout: default
   <div class="micro">
     <div class="micro-header">
       <span class="micro-date">
-        {{ post.date | date: "%Y.%m.%d %H:%M" }}
+        {% if post.has_time %}
+          {{ post.date | date: "%Y.%m.%d %H:%M" }}
+        {% else %}
+          {{ post.date | date: "%Y.%m.%d" }}
+        {% endif %}
       </span>
     </div>
 

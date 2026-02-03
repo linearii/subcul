@@ -36,8 +36,11 @@ jobs:
             exit 0
           fi
 
-          DATETIME=$(date -d "${{ github.event.issue.created_at }}" +"%Y-%m-%d-%H%M")
-          FILENAME="_micro/${DATETIME}.md"
+          CREATED_AT="${{ github.event.issue.created_at }}"
+          DATE=$(date -d "$CREATED_AT" +"%Y-%m-%d %H:%M")
+
+          FILENAME_DATE=$(date -d "$CREATED_AT" +"%Y-%m-%d-%H%M")
+          FILENAME="_micro/${FILENAME_DATE}.md"
 
           echo "Creating micro post: $FILENAME"
 
@@ -45,6 +48,8 @@ jobs:
 
           cat <<EOF > "$FILENAME"
 ---
+date: $DATE
+has_time: true
 ---
 
 $BODY
