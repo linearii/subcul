@@ -1,0 +1,63 @@
+name: Issue to Micro Post
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  micro:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up jq
+        run: sudo apt-get install -y jq
+
+      - name: Generate micro post from issue
+        run: |
+          LABELS=$(echo '${{ toJson(github.event.issue.labels) }}' | jq -r 'map(.name) | join(" ")')
+
+          if ! echo "$LABELS" | grep -qw "micro"; then
+            echo "Not a micro issue. Skipping."
+            exit 0
+          fi
+
+          BODY="${{ github.event.issue.body }}"
+
+          if [ -z "$BODY" ]; then
+            echo "Empty body. Skipping."
+            exit 0
+          fi
+
+          DATETIME=$(date -d "${{ github.event.issue.created_at }}" +"%Y-%m-%d-%H%M")
+          FILENAME="_micro/${DATETIME}.md"
+
+          echo "Creating micro post: $FILENAME"
+
+          mkdir -p _micro
+
+          cat <<EOF > "$FILENAME"
+---
+---
+
+$BODY
+EOF
+
+      - name: Commit and push changes
+        run: |
+          git add _micro
+          git commit -m "Add micro post from issue #${{ github.event.issue.number }}"
+          git push
+
+      - name: Close issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "📌 Micro post published."
