@@ -12,3 +12,8 @@ google_analytics: G-SQE6M9YXWY
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
+
+collections:
+  micro:
+    output: false
+    sort_by: date

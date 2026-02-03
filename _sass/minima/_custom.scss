@@ -211,3 +211,38 @@
 .PageNavigation .next {
   text-align: right;
 }
+
+/*
+ * Micros
+ */
+
+.micros-timeline {
+  max-width: 600px;
+}
+
+.micro {
+  padding: 16px;
+  padding-left: 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.micro-header {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.micro-date {
+  color: #666;
+}
+
+.micro-body {
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: normal;
+}
+
+.micro-footer {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #999;
+}

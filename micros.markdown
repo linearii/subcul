@@ -1,0 +1,4 @@
+---
+layout: micros
+permalink: /micros/
+---

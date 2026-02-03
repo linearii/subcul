@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="micros-timeline">
+
+  {% for post in site.micro reversed %}
+  <div class="micro">
+    <div class="micro-header">
+      <span class="micro-date">
+        {{ post.date | date: "%Y.%m.%d %H:%M" }}
+      </span>
+    </div>
+
+    <div class="micro-body">
+      {{ post.content | strip_html | newline_to_br }}
+    </div>
+
+    <div class="micro-footer">
+      <!-- future: icons or metadata -->
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
