@@ -16,15 +16,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Set up jq
         run: sudo apt-get install -y jq
 
+      - name: Skip if post
+        id: guard
+        run: |
+          LABELS=$(jq -r 'map(.name) | join(", ")' <<< '${{ toJson(github.event.issue.labels) }}')
+          echo "Labels: $LABELS"
+
+          if echo "$LABELS" | grep -qw "micro"; then
+            echo "proceed=true" >> $GITHUB_OUTPUT
+          else
+            echo "proceed=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Generate micro post from issue
+        if: steps.guard.outputs.proceed == 'true'
         run: |
           LABELS=$(jq -r 'map(.name) | join(", ")' <<< '${{ toJson(github.event.issue.labels) }}')
           echo "Labels: $LABELS"
@@ -62,7 +70,10 @@ jobs:
           } > "$FILENAME"
 
       - name: Commit and push changes
+        if: steps.guard.outputs.proceed == 'true'
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add _micro
           git commit -m "Add micro post from issue #${{ github.event.issue.number }}"
           git pull --rebase

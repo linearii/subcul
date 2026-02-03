@@ -16,24 +16,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Set up jq
         run: sudo apt-get install -y jq
 
-      - name: Generate Jekyll post from issue
+      - name: Skip if micro
+        id: guard
         run: |
           LABELS=$(jq -r 'map(.name) | join(", ")' <<< '${{ toJson(github.event.issue.labels) }}')
           echo "Labels: $LABELS"
           
           if echo "$LABELS" | grep -qw "micro"; then
-            echo "Issue labeled as micro. Skipping post generation."
-            exit 0
+            echo "proceed=false" >> $GITHUB_OUTPUT
+          else
+            echo "proceed=true" >> $GITHUB_OUTPUT
           fi
 
+      - name: Generate Jekyll post from issue
+        if: steps.guard.outputs.proceed == 'true'
+        run: |
           TITLE="${{ github.event.issue.title }}"
           SLUG=$(echo "$TITLE" | tr ' ' '-')
           DATE=$(TZ=Asia/Seoul date -d "${{ github.event.issue.created_at }}" +"%Y-%m-%d")
@@ -56,7 +56,10 @@ jobs:
           echo "${{ github.event.issue.body }}" >> "$FILENAME"
 
       - name: Commit and push changes
+        if: steps.guard.outputs.proceed == 'true'
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add _posts/
           git commit -m "Add post from issue #${{ github.event.issue.number }}"
           git pull --rebase
