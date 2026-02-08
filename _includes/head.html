@@ -20,13 +20,18 @@
     {% for tag in tags %}
       {% if tag contains 'src=' %}
         {% assign src = tag | split:'"' | last %}
-        {% assign first_img_src = site.url | append: src %}
+        {% if src contains 'thumbnails' %}
+          {% assign first_img_src = site.url | append: src %}
+          <meta property="og:image" content="{{ first_img_src | relative_url }}" />
+        {% endif %}
         {% break %}
       {% endif %}
     {% endfor %}
   {% endif %}
 
-  <meta property="og:image" content="{{ first_img_src | relative_url }}" />
+  {% if first_img_src == "" %}
+    <meta property="og:image" content="{{ site.url | append: site.logo }}" />
+  {% endif %}
   <meta property="og:description" content="{{ page.excerpt | default: site.description | escape }}" />
   <meta property="og:site_name" content="{{ site.title | escape }}" />
 </head>
