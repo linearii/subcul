@@ -3,25 +3,26 @@ layout: default
 permalink: /tags/
 ---
 
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-<!-- site_tags: {{ site_tags }} -->
-{% assign tag_words = site_tags | split:',' | sort %}
-<!-- tag_words: {{ tag_words }} -->
+<main class="tags-index">
 
-<div id="tags">
-  <ul class="tag-box inline">
-  {% for tag in tag_words %}
-    <li><a href="#{{ tag | cgi_escape }}">{{ tag }} <span>{{ site.tags[tag] | size }}</span></a></li>
+  {% assign tags = site.tags | sort %}
+  {% for tag in tags %}
+    <section class="tag-section" id="{{ tag[0] }}">
+      <h2 class="tag-name">
+        #{{ tag[0] }}
+      </h2>
+
+      <ul class="post-list">
+        {% assign tagged_posts = tag[1] | sort: "date" | reverse %}
+        {%- for post in tagged_posts -%}
+        <li class="post-item">
+          <span class="post-item-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+          <a class="post-item-link" href="{{ post.url | relative_url }}">
+            <span class="post-item-title">{{ post.title | escape }}</span>
+          </a>
+        </li>
+      {%- endfor -%}
+      </ul>
+    </section>
   {% endfor %}
-  </ul>
-
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-  <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
-  <ul class="posts">
-    {% for post in site.tags[this_word] %}{% if post.title != null %}
-    <li itemscope><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span> &raquo; {% if post.category == "speaking" %}<i class="fa fa-microphone"></i> {% endif %}<a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}
-  </ul>
-  {% endunless %}{% endfor %}
-</div>
+</main>

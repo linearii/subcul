@@ -3,20 +3,20 @@ layout: default
 ---
 <div class="micros-timeline">
 
-  {% for post in site.micro reversed %}
+  {% for micro in site.micro reversed %}
   <div class="micro">
     <div class="micro-header">
       <span class="micro-date">
-        {% if post.has_time %}
-          {{ post.date | date: "%Y.%m.%d %H:%M" }}
+        {% if micro.has_time %}
+          {{ micro.date | date: "%Y.%m.%d %H:%M" }}
         {% else %}
-          {{ post.date | date: "%Y.%m.%d" }}
+          {{ micro.date | date: "%Y.%m.%d" }}
         {% endif %}
       </span>
     </div>
 
     <div class="micro-body">
-      {{ post.content }}
+      {{ micro.content }}
     </div>
 
     <div class="micro-footer">

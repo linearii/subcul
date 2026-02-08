@@ -2,11 +2,68 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<div class="home-layout">
+  <!-- MAIN -->
+  <div class="home-main">
+    <section class="home-section">
+      <a class="home-section-title" href="/all">
+        <h2>Recent Posts</h2>
+      </a>
+      <ul class="post-list">
+        {% for post in site.posts limit:5 %}
+          <li class="post-item">
+            <span class="post-item-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a class="post-item-link" href="{{ post.url | relative_url }}">
+              <span class="post-item-title">{{ post.title | escape }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
 
-  {{ content }}
+    <section class="home-section">
+      <a class="home-section-title" href="/micros">
+        <h2>Recent Notes</h2>
+      </a>
+      {% assign micros = site.micro | sort: "date" | reverse %}
+      {% for micro in micros limit:5 %}
+      <div class="micro">
+        <div class="micro-header">
+          <span class="micro-date">
+            {% if micro.has_time %}
+              {{ micro.date | date: "%Y.%m.%d %H:%M" }}
+            {% else %}
+              {{ micro.date | date: "%Y.%m.%d" }}
+            {% endif %}
+          </span>
+        </div>
 
+        <div class="micro-body">
+          {{ micro.content }}
+        </div>
+
+        <div class="micro-footer">
+          <!-- future: icons or metadata -->
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+  </div>
+
+  <!-- ASIDE -->
+  <aside class="home-aside">
+    <a class="home-section-title" href="/tags">
+      <h2>Tags</h2>
+    </a>
+    <ul class="tag-collection">
+    {% for tag in site.tags %}
+      <li class="tag-cell">
+        <a href="{{ '/tags#' | append: tag[0] | relative_url }}">
+          <span class="tag-name">{{ tag[0] }}</span>
+          <span class="tag-count">{{ tag[1].size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  </aside>
 </div>

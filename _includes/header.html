@@ -1,47 +1,50 @@
 <header class="site-header">
-  <div class="wrapper">
-    {%- assign no_display_categories = "twitter_archive" | split: "," -%}
-    {%- assign categories = site.categories | sort -%}
-    <a class="site-title" rel="author" href="/{{ relative_url }}">{{ site.title | escape }}</a>
-    <nav class="site-nav">
-      <a class="page-link" href="/search">
-        <img src="/assets/search.png" width="20"/>
+  <div class="site-header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-header-brand">
+      <img
+        src="{{ site.logo }}"
+        alt="Profile avatar"
+        class="site-header-avatar"
+      />
+      <span class="site-header-title">{{ site.title }}</span>
+    </a>
+    <div class="site-header-actions">
+      <a class="site-header-search" href="/search">
+        <img src="/assets/search.png" width="24"/>
       </a>
-
-      <div class="nav-dropdown-container">
-        <div class="nav-dropdown-button" onclick="toggleDropdown()">posts ▾</div>
-
-        <div id="categoryDropdown" class="dropdown">
-          <div class="dropdown-menu">
-            <a href="/all">all</a>
-          </div>
-          {% for category in categories %}
-            {%- unless no_display_categories contains category[0] -%}
-              <div class="dropdown-menu">
-                <a href="/{{ category[0] }}">{{ category[0] }}</a>
-              </div>
-            {%- endunless -%}
-          {% endfor %}
-        </div>
-      </div>
-    </nav>
+      <button
+        class="site-header-toggle"
+        aria-label="Open sidebar"
+        onclick="toggleSidebar()"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
   </div>
 </header>
+<aside class="site-header-drawer">
+  <nav class="site-header-drawer-nav">
+    <a class="nav-item" href="/">Home</a>
+    <a class="nav-item" href="/all">All Posts</a>
+    <div class="nav-group">
+      {%- assign no_display_categories = "twitter_archive" | split: "," -%}
+      {%- assign categories = site.categories | sort -%}
+      {% for category in categories %}
+        {%- unless no_display_categories contains category[0] -%}
+          <a class="nav-sub" href="/{{ category[0] }}">{{ category[0] }}</a>
+        {%- endunless -%}
+      {% endfor %}
+    </div>
+    <a class="nav-item" href="/micros">Memos</a>
+    <a class="nav-item" href="/about">About</a>
+  </nav>
+</aside>
+<div class="site-header-drawer-backdrop" onclick="toggleSidebar()"></div>
 
 <script>
-  function toggleDropdown() {
-    const el = document.getElementById("categoryDropdown");
-    el.style.display = (el.style.display === "block") ? "none" : "block";
+  function toggleSidebar() {
+    document.body.classList.toggle("sidebar-open");
   }
-
-  // 영역 밖 클릭 시 드롭다운 닫기
-  document.addEventListener("click", function(e) {
-    const dropdown = document.getElementById("categoryDropdown");
-    const button = document.querySelector(".nav-dropdown-button");
-
-    // 버튼 클릭이 아니라면 닫기
-    if (!button.contains(e.target)) {
-      dropdown.style.display = "none";
-    }
-  });
 </script>

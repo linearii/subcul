@@ -21,7 +21,8 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    900px !default;
+$header-height:    64px;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -41,5 +42,6 @@ $on-laptop:        800px !default;
   "minima/base",
   "minima/layout",
   "minima/custom",
+  "minima/colors",
   "minima/syntax-highlighting"
 ;

@@ -1,44 +1,39 @@
 ---
 layout: default
 ---
-<article class="post">
+<article>
+  <h2 class="post-list-heading">{{ page.id | capitalize }}</h2>
+  {%- assign posts = site.categories[page.id] | where:"hidden", nil -%}
+  {%- if page.id == "all" -%}
+    {%- assign posts = site.posts | where:"hidden", nil -%}
+  {%- endif -%}
+  {%- assign pinned_posts = posts | where:"pin", true -%}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.id | capitalize }}</h2>
-    {%- assign posts = site.categories[page.id] | where:"hidden", nil -%}
-    {%- if page.id == "all" -%}
-      {%- assign posts = site.posts | where:"hidden", nil -%}
-    {%- endif -%}
-    {%- assign pinned_posts = posts | where:"pin", true -%}
+  <ul class="post-list">
+    {%- for post in pinned_posts -%}
+    <li class="post-item">
+      <span class="post-item-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a class="post-item-link" href="{{ post.url | relative_url }}">
+        <span class="post-item-title">{{ post.title | escape }} 📌</span>
+      </a>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
 
-    <ul class="post-list">
-      {%- for post in pinned_posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }} 📌
-        </a>
+    {%- for post in posts -%}
+      {%- unless post.pin -%}
+      <li class="post-item">
+        <span class="post-item-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a class="post-item-link" href="{{ post.url | relative_url }}">
+        <span class="post-item-title">{{ post.title | escape }}</span>
+      </a>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
       </li>
-      {%- endfor -%}
-
-      {%- for post in posts -%}
-        {%- unless post.pin -%}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-        {%- endunless -%}
-      {%- endfor -%}
-    </ul>
-
-  {%- endif -%}
-
+      {%- endunless -%}
+    {%- endfor -%}
+  </ul>
 </article>

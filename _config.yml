@@ -1,10 +1,10 @@
-title: Linear
+title: Linear's Blog
 author: Linear
 email: seonyeong.linear@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   일기, 독서 기록, 이것저것의 아카이빙
 url: "https://linearlog.com"
-logo: /assets/profile.jpg
+logo: /assets/profile.png
 theme: minima
 
 google_analytics: G-SQE6M9YXWY

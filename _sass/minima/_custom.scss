@@ -1,3 +1,46 @@
+/*
+ * Tags
+ */
+
+.tag-collection {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+}
+
+.tag-cell a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.04);
+
+  background: var(--accent-tag-bg);
+  color: var(--ink-soft);
+
+  font-size: 0.85rem;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.tag-count {
+  font-size: 0.75rem;
+  color: var(--ink-meta);
+}
+
+.tag-cell a:hover {
+  background: var(--accent-tag-hover);
+}
+
+.tag-cell a:active {
+  transform: translateY(0.5px);
+}
+
  
 /*
  * Quote Images
@@ -22,7 +65,7 @@
  */
 
 #quotememo {
-  color: darkgreen;
+  color: var(--accent-quote);
 }
 
 
@@ -45,27 +88,44 @@
 .tweets-subject {
   margin-right: 12px;
   margin-bottom: 10px;
-  border: 1px solid #AFCBEB;
-  background-color: #E6F0FA;
-  color: #2F4F6F;
+  border: 1px solid var(--archive-border);
+  background-color: var(--archive-paper);
+  color: var(--archive-ink);
   border-radius: 12px;
   padding: 3px;
   transition: background-color 0.3s, border-color 0.3s;
 }
 
 .tweets-subject:hover {
-  background-color: #D0E3F2;
-  border-color: #8FB5DB;
+  background-color: var(--archive-paper-hover);
+  border-color: var(--archive-border-hover);
 }
 
 .tweets-list {
   table, tr, td, th {
     border: none;
   }
+
+  th {
+    text-align: left;
+    font-weight: 500;
+    color: var(--ink-soft);
+    background-color: var(--paper-main);
+    border-bottom: 1px solid var(--paper-divider);
+    padding: 0.5rem 0.75rem;
+  }
+
+  tr:nth-child(odd) {
+    background-color: var(--paper-subtle);
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--paper-main);
+  }
 }
 
 .tweets-list-date {
-  color: #9CA3AF;
+  color: var(--ink-muted);
 }
 
 
@@ -80,10 +140,10 @@
 }
 
 .card {
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--paper-divider);
   border-radius: 12px;
   padding: 1rem;
-  background: #fff;
+  background: var(--paper-card);
   break-inside: avoid;
   margin-bottom: 20px;
 }
@@ -101,61 +161,9 @@
 }
 
 .card-keyword {
-  color: #6b7280;
+  color: var(--ink-meta);
   font-size: 0.9rem;
   margin-bottom: 10px;
-}
-
-
-/*
- * Dropdown
- */
-
-.site-nav {
-  display: flex;
-  flex-direction: row; /* 기본 가로 나열 */
-  flex-wrap: nowrap;
-  align-items: center;     /* baseline 문제 해결 */
-  justify-content: flex-start;
-}
-
-.nav-dropdown-container {
-  position: relative;
-  display: inline-block;
-}
-
-.nav-dropdown-button {
-  color: black;
-  cursor: pointer;
-  user-select: none;
-}
-
-.dropdown {
-  background: white;
-  color: black;
-  display: none;
-  position: absolute;
-  right: 0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  min-width: 120px;
-  line-height: 40px;
-}
-
-.dropdown a {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.dropdown :hover {
-  background-color: #eee;
-}
-
-.dropdown-menu {
-  text-align: right;
-  padding-right: 18px;
 }
 
 /*
@@ -194,22 +202,26 @@
  * Pagination
  */
 
-.PageNavigation {
+.page-navigation {
   font-size: 14px;
   display: block;
   width: auto;
   overflow: hidden;
 }
 
-.PageNavigation a {
+.page-navigation a {
   display: block;
   width: 50%;
   float: left;
   margin: 1em 0;
 }
 
-.PageNavigation .next {
+.page-navigation .next {
   text-align: right;
+}
+
+.page-navigation-title {
+  color: var(--paper-title);
 }
 
 /*
@@ -221,18 +233,17 @@
 }
 
 .micro {
-  padding: 16px;
-  padding-left: 0px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--paper-border-soft);
 }
 
 .micro-header {
   font-size: 14px;
+  margin-top: 16px;
   margin-bottom: 6px;
 }
 
 .micro-date {
-  color: #666;
+  color: var(--ink-meta);
 }
 
 .micro-body {
@@ -242,7 +253,6 @@
 }
 
 .micro-footer {
-  margin-top: 8px;
   font-size: 13px;
-  color: #999;
+  color: var(--ink-muted);
 }
