@@ -53,7 +53,7 @@ jobs:
           DATE=$(TZ=Asia/Seoul date -d "$CREATED_AT" +"%Y-%m-%d %H:%M")
 
           FILENAME_DATE=$(TZ=Asia/Seoul date -d "$CREATED_AT" +"%Y-%m-%d-%H%M")
-          FILENAME="_micro/${FILENAME_DATE}.md"
+          FILENAME="_micro/${FILENAME_DATE}.markdown"
           HAS_TIME=true
 
           echo "Creating micro post: $FILENAME"

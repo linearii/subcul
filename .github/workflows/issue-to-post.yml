@@ -37,7 +37,7 @@ jobs:
           TITLE="${{ github.event.issue.title }}"
           SLUG=$(echo "$TITLE" | tr ' ' '-')
           DATE=$(TZ=Asia/Seoul date -d "${{ github.event.issue.created_at }}" +"%Y-%m-%d")
-          FILENAME="_posts/${DATE}-${SLUG}.md"
+          FILENAME="_posts/${DATE}-${SLUG}.markdown"
 
           echo "Creating post: $FILENAME"
 
