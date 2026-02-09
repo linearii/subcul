@@ -5,8 +5,12 @@ permalink: /about/
 
 <img src="/assets/profile.png" width="200"/>
 
-직장과 직업으로 나를 소개하는 게 다소 망설여지는 요즘입니다. 큰 회사에 다닌다고 내가 큰 사람이 되는 게 아니고 작은 회사에 다닌다고 내가 작은 사람이 되는 게 아니라서, 어디에서 무슨 일을 하든 그 수식어만으로 내가 달라지진 않고 결국 나는 내가 결정하는 수밖에 없는 것 같습니다.
+## 소개
 
-이미지는 예전 지인이 '이 사람 인상만 갖고 어울리는 프로필 이미지 만들어주기' 이벤트를 할 때 선물로 받은 것입니다. 실제와는 조금도 닮은 점이 없습니다.
+2017년부터 iOS 개발을 했습니다. 최근에는 Flutter 개발을 합니다.
 
 책, 영화, 애니메이션, 웹소설, 웹툰 등의 컨텐츠를 가리지 않고 봅니다. 가끔 TRPG를 하고 가끔 뭔가를 씁니다.
+
+## Contact
+- [seonyeong_linear@gmail.com](mailto:seonyeong_linear@gmail.com)
+- [linear@hackers.pub](https://hackers.pub/@linear)
