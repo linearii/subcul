@@ -256,3 +256,11 @@
   font-size: 13px;
   color: var(--ink-muted);
 }
+
+/*
+ * Search
+ */
+
+.pagefind-ui .pagefind-ui__drawer {
+  z-index: 999 !important; 
+}

@@ -190,11 +190,22 @@ body.sidebar-open .site-header-drawer-backdrop {
 
 .home-section-title {
   color: var(--paper-title);
-  text-decoration-color: transparent;
+}
 
-  h2 {
-    color: inherit;
-  }
+.home-section-title-text {
+  color: inherit;
+}
+
+.home-section-title-arrow {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.home-section-title:hover .home-section-title-arrow {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 @media (max-width: $content-width - 1) {
