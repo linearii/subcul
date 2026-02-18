@@ -5,7 +5,9 @@ categories: review
 tags: [애니]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/230125_movies/86.jpeg" width="300" />
+<div class="image-row--portrait">
+  <img src="/thumbnails/230125_movies/86.jpeg"/>
+</div>
 
 ### 86 -에이티식스-
 

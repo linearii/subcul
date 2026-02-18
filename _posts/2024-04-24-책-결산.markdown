@@ -5,7 +5,9 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/240424_books/보스턴결혼.jpeg" width="300" />
+<div class="image-row--portrait">
+  <img src="/thumbnails/240424_books/보스턴결혼.jpeg"/>
+</div>
 
 ### 보스턴 결혼
 

@@ -5,7 +5,9 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/220326_books/나의이브생로랑에게.jpeg" width="300" />
+<div class="image-row--portrait">
+  <img src="/thumbnails/220326_books/나의이브생로랑에게.jpeg"/>
+</div>
 
 ### 나의 이브 생 로랑에게
 
@@ -27,7 +29,7 @@ tags: [책]
 
 ### 레비나스와 사랑의 현상학
 
-이미 [다른 글]({{ site.baseurl }}/review/2022/03/26/레비나스)에 한바탕 쏟아냈으므로 패스. 
+이미 [다른 글](/review/2022/03/26/레비나스)에 한바탕 쏟아냈으므로 패스. 
  
 ### 존버씨의 죽음
 

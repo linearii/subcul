@@ -5,7 +5,9 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/220103_books/초인적힘의비밀.png" width="300" />
+<div class="image-row--portrait">
+  <img src="/thumbnails/220103_books/초인적힘의비밀.png"/>
+</div>
 
 ## 책
 

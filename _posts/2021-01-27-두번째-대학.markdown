@@ -4,7 +4,8 @@ title: 두번째 대학
 categories: essay
 ---
 
-<img src="/thumbnails/210127/방통대입학.jpeg" height="400" />
-
+<div class="image-row">
+  <img src="/thumbnails/210127/방통대입학.jpeg"/>
+</div>
 
 과연 두번째 대학생활은 잘 할 수 있을까요?

@@ -4,7 +4,7 @@ title: WTM Ambassador 가 되었습니다
 categories: try
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/wtm_ambassador.png" width="300" />
+<img src="/thumbnails/wtm_ambassador.png" width="300" />
 
 어제 새벽에 [Google Women TechMakers](https://developers.google.com/womentechmakers)에서 연락을 받았습니다. "Congrats - you’re an Ambassador!" 라고요. 제가 Ambassador 로 선정이 됐습니다.
 

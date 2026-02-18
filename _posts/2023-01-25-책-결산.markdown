@@ -5,7 +5,9 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/230125_books/세여자.jpeg" width="300" />
+<div class="image-row--portrait">
+  <img src="/thumbnails/230125_books/세여자.jpeg"/>
+</div>
 
 ### 세 여자
 

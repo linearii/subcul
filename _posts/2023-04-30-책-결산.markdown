@@ -5,7 +5,9 @@ categories: review
 tags: [책]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/230430_books/휘슬.jpeg" width="300" />
+<div class="image-row--portrait">
+  <img src="/thumbnails/230430_books/휘슬.jpeg"/>
+</div>
 
 ### 휘슬
 

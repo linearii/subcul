@@ -5,8 +5,9 @@ categories: essay
 tags: [회고]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/201225/this-year.png" width="300" />
-
+<div class="image-row--portrait">
+  <img src="/thumbnails/201225/this-year.png"/>
+</div>
 
 ### 4년차 개발자의 소회
 - 그간 늘 iOS 팀원 수가 둘셋 정도였는데 작년 말에 다섯이 됐고 현재는 일곱.

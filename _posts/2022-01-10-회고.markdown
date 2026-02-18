@@ -5,7 +5,9 @@ categories: essay
 tags: [회고]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/220110/this-year.png" width="400" />
+<div class="image-row">
+  <img src="/thumbnails/220110/this-year.png"/>
+</div>
 
 ## 나이가 들어간다는 것
 

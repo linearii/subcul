@@ -4,7 +4,9 @@ title: 들어는 봤나 스위니 토드
 categories: essay
 ---
 
-<img src="/thumbnails/221212_play/스위니토드.jpeg" height="400"/>
+<div class="image-row--portrait">
+  <img src="/thumbnails/221212_play/스위니토드.jpeg"/>
+</div>
 
 잔인한 운명의 이발-사.
 

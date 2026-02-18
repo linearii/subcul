@@ -5,7 +5,9 @@ categories: review
 tags: [영화]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/220327_movies/나기의휴식.jpeg" height="300" />
+<div class="image-row">
+  <img src="/thumbnails/220327_movies/나기의휴식.jpeg"/>
+</div>
 
 ### 나기의 휴식
 

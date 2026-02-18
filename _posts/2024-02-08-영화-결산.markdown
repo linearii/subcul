@@ -5,7 +5,9 @@ categories: review
 tags: [영화]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/240207_movies/이니셰린의밴시.jpeg" width="300" />
+<div class="image-row--portrait">
+  <img src="/thumbnails/240207_movies/이니셰린의밴시.jpeg"/>
+</div>
 
 ### 이니셰린의 밴시
 

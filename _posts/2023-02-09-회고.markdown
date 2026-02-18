@@ -5,7 +5,9 @@ categories: essay
 tags: [회고]
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/230209/this-year.jpeg" width="500" />
+<div class="image-row">
+  <img src="/thumbnails/230209/this-year.jpeg"/>
+</div>
 
 ## 방통대 졸업
 - 이번 달 말에 졸업장이 나온다. 졸업식 공가도 신청해뒀다. 어뷰징으로 보지는 않겠지?

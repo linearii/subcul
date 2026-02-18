@@ -463,9 +463,15 @@ body.sidebar-open .site-header-drawer-backdrop {
   display: block;
 }
 
+.image-row--portrait {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
 .image-row--portrait img {
   max-height: 500px;
-  margin-bottom: 5px;
 }
 
 @media (min-width: 700px) {
