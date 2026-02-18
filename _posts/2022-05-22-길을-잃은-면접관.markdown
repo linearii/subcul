@@ -4,7 +4,9 @@ title: 길을 잃은 면접관
 categories: try
 ---
 
-<img src="{{ site.baseurl }}/thumbnails/220522.jpeg" width="350" />
+<div class="image-row">
+  <img src="/thumbnails/220522.jpeg"/>
+</div>
 
 회사에서 면접관을 맡은지 세 달이 됐다.
 

@@ -90,21 +90,27 @@ Box for collecting plants 가 따로 있다니 이것도 정말 귀엽다고 생
 
 4-3.
 
-<img src="/thumbnails/251023/4.jpg" width=500 style="padding-bottom: 10px;" />
-<img src="/thumbnails/251023/5.jpg" width=500 style="padding-bottom: 10px;" />
-<img src="/thumbnails/251023/6.jpg" width=500 style="padding-bottom: 10px;" />
+<div class="image-row">
+  <img src="/thumbnails/251023/4.jpg">
+  <img src="/thumbnails/251023/5.jpg">
+  <img src="/thumbnails/251023/6.jpg">
+</div>
 
 하이델베르크 성 전망과 귀여운 해시계.
 
 4-4.
 
-<img src="/thumbnails/251023/7.jpg" width=500 style="padding-bottom: 10px;" />
-<img src="/thumbnails/251023/8.jpg" width=500 style="padding-bottom: 10px;" />
+<div class="image-row">
+  <img src="/thumbnails/251023/7.jpg">
+  <img src="/thumbnails/251023/8.jpg">
+</div>
 
 사실 하이델베르크 성 자체보다는 정원이 진짜 멋졌다. 예전에는 팔쯔 정원(Hortus Palatus), 오늘날엔 고성 정원(Schlossgarten)으로 불린다는 곳인데 바람 불면서 은행잎 쏟아내리는 풍경이 정말 아름다웠다. 강아지 산책시키는 사람들이 최고 부러웠다. 이건 사실 독일 다니는 내내 들었던 감상이다. 무슨 성 내부 입장하겠다고 관광객들 아등바등거리고 있을 때 성 외곽으로 유유히 조깅하는 사람들이 제일 멋있었다. 나도.. 나도 다음엔 운동복 챙겨올 거야 ㅜㅜ
 
-<img src="/thumbnails/251023/9.jpg" width=300 />
-<img src="/thumbnails/251023/10.jpg" width=300 />
+<div class="image-row--portrait">
+  <img src="/thumbnails/251023/9.jpg">
+  <img src="/thumbnails/251023/10.jpg">
+</div>
 
 누군지 잘 모르는 시인이자 소설가의 비석도 찍어봤다. 양지바른 곳에 계시더라구요. 그리고 하이델베르크 성에서 다시 시가지로 내려오는 계단길.
 

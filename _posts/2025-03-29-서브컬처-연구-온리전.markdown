@@ -4,7 +4,11 @@ title: 서브컬처 연구 온리전
 categories: essay
 ---
 
-<img src="/thumbnails/250331/poster1.jpeg" width=350 /> <img src="/thumbnails/250331/poster2.jpeg" width=350 />
+<div class="image-row--portrait">
+  <img src="/thumbnails/250331/poster1.jpeg"/>
+  <img src="/thumbnails/250331/poster2.jpeg"/>
+</div>
+<br>
 
 때는 3월 19일 수요일. 트위터 타임라인에 갑자기 "서브컬처 연구 온리전"이라는 행사가 아무 예고 없이 등장했다. 그것도 이미 고정된 날짜와 장소에 풀 컬러 일러스트가 가미된 포스터, 즉시 입금 가능한 신청 링크를 달고.
 
