@@ -474,7 +474,7 @@ body.sidebar-open .site-header-drawer-backdrop {
   max-height: 500px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: $on-laptop) {
   .image-row {
     grid-template-columns: var(--cols-desktop, 1fr 1fr);
   }
