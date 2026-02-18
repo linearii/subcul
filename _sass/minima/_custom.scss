@@ -216,7 +216,11 @@
   margin: 1em 0;
 }
 
-.page-navigation .next {
+.page-navigation-prev, .page-navigation-next {
+  color: inherit;
+}
+
+.page-navigation-next {
   text-align: right;
 }
 

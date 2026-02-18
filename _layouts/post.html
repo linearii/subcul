@@ -48,12 +48,12 @@ layout: default
 
   <div class="page-navigation">
     {% if page.previous.url %}
-      <a class="prev" href="{{ page.previous.url }}">
+      <a class="page-navigation-prev" href="{{ page.previous.url }}">
         <span class="page-navigation-title">&laquo; {{ page.previous.title }}</span>
       </a>
     {% endif %}
     {% if page.next.url %}
-      <a class="next" href="{{ page.next.url }}">
+      <a class="page-navigation-next" href="{{ page.next.url }}">
         <span class="page-navigation-title">{{ page.next.title }} &raquo;</span>
       </a>
     {% endif %}
