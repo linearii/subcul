@@ -6,7 +6,12 @@ categories: try
 tags: [창작]
 ---
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/64riL4vzFGs?si=VzR9uNbpSilnPk-W" allowfullscreen></iframe>
+<div class="video video-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/64riL4vzFGs?si=VzR9uNbpSilnPk-W"
+    allowfullscreen
+  ></iframe>
+</div>
 <br>
 
 소금기에 살갗이 다 거칠어질 듯한 바닷가 마을 어귀에 어느 두 심방이 살았다. 

@@ -79,13 +79,23 @@ Lilow - Specialty Coffee & Friends. 숙소에서 기념관 가는 길에 느낌 
 
 리스본 최초의 카페이자 페소아를 포함해 각종 문학가와 예술가가 사랑했던 곳으로 유명한 A Brasileira. 페소아 이제 안 좋아한다고 암만 얘기해도 결국 내가 아는 리스본의 명소는 페소아 영향권에서 벗어나질 않는다. 비도 오고 잠깐 앉고 싶어서 에스프레소 한 잔과 나타를 주문했다. 그 유명한 포르투갈식 에그 타르트 나타. 하지만 오기 전에도 짐작했듯이 에그 타르트는 에그 타르트의 맛이 났다. 아니 맛은 있었다. 맛이 없었다는 게 아니고 원래도 에그 타르트는 좋아한다. 근데 에그 타르트가 맛있으면 그냥 맛있는 에그 타르트의 맛이 나는 거 아냐? 더 나아갈 수 있는 맛이랄 게 있나? 구글 맵 리뷰를 찾아보니 어떤 사람은 나타로 가장 유명한 벨렝보다도 브라질리아의 나타가 더 맛있었다고 했고 솔직히 그건 나도 동의하는 바였는데 어쨌든 에그 타르트의 맛있음에서 벗어나진 않았다. 
 
-<iframe width="500" height="350" src="https://www.youtube.com/embed/6Sv5pVIPzVw?si=Jv2-HERTgtdU4ORh" allowfullscreen></iframe>
+<div class="video video-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/6Sv5pVIPzVw?si=Jv2-HERTgtdU4ORh"
+    allowfullscreen
+  ></iframe>
+</div>
 
 사실 나타의 맛보다는 테라스석의 비바람이 좀 더 기억에 남는다. 음. 유럽 영화의 등장인물이 된 거 같았다. 이 비에 테라스석에서 커피를 먹네..
 
 3-1.
 
-<iframe width="300" height="500" src="https://www.youtube.com/embed/NOKv2bw1YnM?si=ziBJgYpsNyZfBoAZ" allowfullscreen></iframe>
+<div class="video video-9x16">
+  <iframe
+    src="https://www.youtube.com/embed/NOKv2bw1YnM?si=ziBJgYpsNyZfBoAZ"
+    allowfullscreen
+  ></iframe>
+</div>
 
 트램 기다리는 중에 만난 폭우. 이때는 정말 모든 생각이 비바람에 쓸려나가는 것만 같았다.
 
@@ -97,7 +107,12 @@ Lilow - Specialty Coffee & Friends. 숙소에서 기념관 가는 길에 느낌 
 
 ### 4. 트램 탑승
 
-<iframe width="500" height="350" src="https://www.youtube.com/embed/mFI_H-vO-0I?si=tlmXPH0HbwTR-8WI" allowfullscreen></iframe>
+<div class="video video-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/mFI_H-vO-0I?si=tlmXPH0HbwTR-8WI"
+    allowfullscreen
+  ></iframe>
+</div>
 
 리스본에 대한 복합적인 인상이 차곡차곡 쌓여갔다. 첫째, 대중교통이 제시간에 오지 않는다. 구글 맵에서 안내한 시간이 한참 지났는데도 트램이 오지 않아서 나뿐만 아니라 같은 정류장에 서 있던 외국인들 모두가 ‘너 혹시 뭐 알아?’ 표정으로 서로를 바라보았다. 둘째, 리스본의 낭만을 상징하는 트램은 조금 더 멀리서 봐야 낭만이 생기는 거 같다. 비에 쫄딱 젖은 사람들을 차곡차곡 스택으로 실어 나르느라 이날 차체에선 바닷가 냄새가 물씬 풍겼다. 거대한 염장 통조림 안에 들어와 있는 기분이었다. 그리고 기사님 운전이 다소 거칠다. 우당탕탕. 두두두두구구구구.
 

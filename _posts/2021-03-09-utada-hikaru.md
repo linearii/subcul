@@ -4,7 +4,12 @@ title: i love you more than you'll ever know
 categories: essay
 ---
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/0Uhh62MUEic" title="宇多田ヒカル『One Last Kiss』" allowfullscreen></iframe>
+<div class="video video-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/0Uhh62MUEic"
+    allowfullscreen
+  ></iframe>
+</div>
 
 2000년대 제이팝의 3대 여왕으로 불렸던 아무로 나미에, 하마사키 아유미, 우타다 히카루를 셋 다 좋아했다. 고등학교 수학여행 때는 비행기 안에서 좌석에 딸린 조그마한 스크린으로 아무로 나미에의 Fast Car 를 들으며 한참을 쿵짝쿵짝 했었다. 평소 JPOP 취향과는 거리가 먼 곡인데 그땐 왜 그렇게 좋아했던지.
 

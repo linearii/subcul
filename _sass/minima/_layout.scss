@@ -426,3 +426,20 @@ body.sidebar-open .site-header-drawer-backdrop {
     }
   }
 }
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-16x9 {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.video-9x16 {
+  aspect-ratio: 9 / 16;
+  width: 100%;
+  max-width: 400px;
+}

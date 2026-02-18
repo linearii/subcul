@@ -24,7 +24,12 @@ tags: [유럽여행]
 <img src="/thumbnails/251101/5.jpg" width=350 />
 <img src="/thumbnails/251101/6.jpg" width=350 />
 
-<iframe width="500" height="300" src="https://www.youtube.com/embed/nODH7aNFFcE?si=jLjS6fNBFGs5pf1L" allowfullscreen></iframe>
+<div class="video video-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/nODH7aNFFcE?si=jLjS6fNBFGs5pf1L"
+    allowfullscreen
+  ></iframe>
+</div>
 
 정말 나가기 싫다고 생각하면서도 그래도 나가야지.. 나가자.. 하는 마음으로 나왔는데 너무너무 멋진 풍경을 만났다. 피리 부는 사나이 대신 광장에 출몰한 비눗방울 부는 사나이. 어제 저녁 식당의 웨이터는 나한테 치즈 하나 주고 7유로를 받아먹었지만 코시우 광장의 비눗방울 부는 사나이는 그저 사람들을 즐겁게 해주기 위해 나온 거 같았다. 어린이들이 신나서 거대한 비눗방울을 따라다니는 것도 귀여웠고, 그 에너지에 힘입어 함께 소리를 내지르는 어른들도 귀여웠다. 나도 약 30분쯤을 비눗방울 쫓아다니고 터뜨리며 놀다가 밥 먹으러 갔다.
 
@@ -56,11 +61,21 @@ Marisqueira Uma. 어제 하루동안의 여행과 페소아의 단골 식당 방
 
 <img src="/thumbnails/251101/16.jpg" width=300 />
 
-<iframe width="500" height="300" src="https://www.youtube.com/embed/uKpLE6hTSko?si=_6UowvGhbCn7JRp_" allowfullscreen></iframe>
+<div class="video video-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/uKpLE6hTSko?si=_6UowvGhbCn7JRp_"
+    allowfullscreen
+  ></iframe>
+</div>
 
 사실 성곽 구경보다 이게 더 메인 이벤트였다. 성곽 다 둘러보고 경사진 돌길을 내려와 모퉁이 카페에서 그린 와인 한 잔을 시키고 앉았는데, 와인을 시킨지 얼마 되지 않아 버스킹하는 사람들이 주섬주섬 카페 앞에 자리를 잡았다. 날씨가 좋길래 테라스석에 앉은 것 뿐이었는데 졸지에 제일 가는 명당에서 버스킹 구경을 하게 됐다. Soalheiro Alvarinho 라고 쓰인 병의 그린 와인도 맛있었고 술 마시면서 보는 공연도 제법 즐거웠기 때문에 ‘이게! 이게 바로 유럽인가! 이게 유럽 낭만!’ 하며 엄청나게 타자화된 생각을 했다.
 
-<iframe width="500" height="300" src="https://www.youtube.com/embed/AZhSBAmp7Rg?si=k9ZxEilOWuAfccBz" allowfullscreen></iframe>
+<div class="video video-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/AZhSBAmp7Rg?si=k9ZxEilOWuAfccBz"
+    allowfullscreen
+  ></iframe>
+</div>
 
 그리고 어쩌다보니 자기 집 테라스에 서서 노래를 부르는 분도 발견했다. 사실 진짜 재미는 이런 게 아닌가 싶다. 인스타그램 아이디와 유튜브 채널명이 적힌 팻말을 꼼꼼하게 세워두고 카페 앞에서 유명한 노래를 커버하는 쪽이 물론 실력은 더 좋았지만, 2층 테라스의 아저씨는 ladies with glasses people with glasses 가 반복되는 알 수 없는 가사를 부르지만, 관객이 돈을 낼래야 낼 수 없는 곳에서 자기가 치고 싶은 만큼 치고 들어가고 싶을 때 퇴장하는 쿨한 매력이 있었다.
 

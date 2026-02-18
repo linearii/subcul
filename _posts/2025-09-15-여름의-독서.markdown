@@ -13,7 +13,12 @@ tags: [책]
 
 몰리에르 희극을 처음 읽어보았다는데 의의를 둔다. 첫 장에 있는 "1671년 5월 24일 파리 팔레루아얄 극장에서 프랑스와 나바르의 주군이신 국왕 폐하의 극단이 초연하다." 문구가 멋졌고, 줄거리는 사실 깔깔 코미디 그 자체라서 연극으로 직접 보지 않으면 크게 할 이야기는 없다 ㅎㅎ 몰랐는데 작년에 국립극단에서 극 『스카팽』을 올리기도 했던 모양.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zO4BX-KTvTo?si=9Pqp--kQlFfgmqkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video video-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/zO4BX-KTvTo?si=9Pqp--kQlFfgmqkr"
+    allowfullscreen
+  ></iframe>
+</div>
 
 ### 다클리
 

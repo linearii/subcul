@@ -6,7 +6,12 @@ categories: try
 tags: [창작]
 ---
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/aawKFo26Pwc?si=2gY3YHgu-coOlOpg" title="YouTube video player" allowfullscreen></iframe>
+<div class="video video-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/aawKFo26Pwc?si=2gY3YHgu-coOlOp"
+    allowfullscreen
+  ></iframe>
+</div>
 <br>
 
 **上**
