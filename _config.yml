@@ -8,6 +8,7 @@ logo: /assets/profile.png
 theme: minima
 
 google_analytics: G-SQE6M9YXWY
+permalink: pretty
 
 plugins:
 - jekyll-sitemap
