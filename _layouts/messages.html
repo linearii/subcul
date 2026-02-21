@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/assets/js/message.js"></script>
+
+<div class="guestbook-container">
+  <h1>{{ page.title }}</h1>
+
+  <form id="message-form" class="guestbook-form">
+    <input type="text" id="nickname" placeholder="이름" required maxlength="20">
+    <textarea id="content" placeholder="메시지를 작성해 주세요..." required maxlength="300"></textarea>
+
+    <!-- 허니팟 (봇 방지용 숨김 필드) -->
+    <input type="text" id="website" style="display:none">
+
+    <button type="submit">Post</button>
+  </form>
+
+  <div id="messages-list" class="messages-list"></div>
+</div>
+<style>
+  .guestbook-container {
+    max-width: 600px;
+  }
+
+  .guestbook-form input,
+  .guestbook-form textarea {
+    resize: vertical;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .guestbook-form button {
+    padding: 10px 16px;
+    border: none;
+    background: #111;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .guestbook-form button:hover {
+    opacity: 0.8;
+  }
+
+  .messages-list {
+    padding-top: 15px;
+  }
+
+  .message-item {
+    padding: 15px;
+    padding-left: 0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+  .message-meta {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+</style>
