@@ -268,3 +268,144 @@
 .pagefind-ui .pagefind-ui__drawer {
   z-index: 999 !important; 
 }
+
+/*
+ * Canvas
+ */
+
+.collage-canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.collage-item {
+  position: absolute;
+  display: block;
+  cursor: grab;
+  touch-action: none;
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.15),
+    0 2px 6px rgba(0,0,0,0.08);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+@media (max-width: $content-width) {
+  .collage-canvas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
+
+  .collage-item {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+  }
+}
+
+.collage-item.collage-image {
+  background: transparent;
+}
+
+.collage-item.collage-note {
+  background: var(--accent-tag-bg);
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid var(--paper-divider);
+}
+
+.collage-item img {
+  width: 100%;
+  display: block;
+  pointer-events: none;
+  border-radius: 3px;
+}
+
+.collage-item::before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+
+  background: radial-gradient(
+    circle at 30% 30%,
+    var(--paper-subtle),
+    var(--accent-quote)
+  );
+
+  box-shadow:
+    0 3px 4px rgba(0,0,0,0.25),
+    inset -2px -3px 4px rgba(0,0,0,0.25),
+    inset 2px 2px 4px rgba(255,255,255,0.4);
+
+  z-index: 5;
+}
+
+.collage-item::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 2px;
+  height: 10px;
+
+  background: var(--ink-muted);
+
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.collage-item:hover {
+  transform: scale(1.04) rotate(var(--current-rotation));
+  box-shadow:
+    0 20px 45px rgba(0,0,0,0.25),
+    0 6px 12px rgba(0,0,0,0.15);
+}
+
+.collage-note {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink-main);
+
+  p {
+    margin: 0;
+  }
+}
+
+.collage-note::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 18px;
+  height: 18px;
+  background: rgba(0,0,0,0.08);
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
+#collage-reset-btn {
+  background: var(--paper-main);
+  color: var(--ink-main);
+  border: 1px solid var(--paper-divider);
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  float: right;
+}
+
+#collage-reset-btn:hover {
+  background: var(--accent-tag-hover);
+}
