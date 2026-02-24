@@ -2,6 +2,7 @@
   type: image
   image: /assets/collage/taemin.jpg
   url: https://youtu.be/fki-ZVekwrM?si=GebFR-RpUCAsOOOH
+  emoji: "🎵"
   x: 0
   y: 80
   width: 250
@@ -11,6 +12,7 @@
   type: image
   image: /assets/collage/마차살.jpg
   url: https://page.kakao.com/content/60707231
+  emoji: "📖"
   x: 500
   y: 120
   width: 350
@@ -20,6 +22,7 @@
   type: image
   image: /assets/collage/bible.jpg
   url: https://youtu.be/PhtvsSo_Ba8?si=-sQIahuhy4aELsrw
+  emoji: "🎵"
   x: 260
   y: 150
   width: 300
@@ -29,6 +32,7 @@
   type: note
   content: 🔥 동네 서점 번창 기원 🔥
   url: https://remem.so/
+  emoji: "📖"
   x: 280
   y: 50
   width: 220
@@ -38,8 +42,9 @@
   type: note
   content: |
     틈날 때마다 확인한다.  
-    새 CD 나온 거 없나.. 💿️
+    새 CD 나온 거 없나..
   url: https://sggp.kr/
+  emoji: "💿️"
   x: 170
   y: 340
   width: 220
@@ -47,8 +52,9 @@
 
 - id: memo3
   type: note
-  content: 우리 함께 작은배를 타자 ⛵
+  content: 우리 함께 작은배를 타자
   url: https://jagunbae.com/
+  emoji: "⛵"
   x: 600
   y: 340
   width: 220

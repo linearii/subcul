@@ -373,6 +373,38 @@
     0 6px 12px rgba(0,0,0,0.15);
 }
 
+.collage-link-icon {
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.collage-link-icon:hover {
+  text-decoration: none;
+}
+
+.collage-item:hover .collage-link-icon {
+  opacity: 1;
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border-soft);
+  border-radius: 50%;
+}
+
+@media (hover: none) {
+  .collage-link-icon {
+    opacity: 0.85;
+    background: var(--paper-card);
+    border: 1px solid var(--paper-border-soft);
+    border-radius: 50%;
+  }
+}
+
 .collage-note {
   font-size: 14px;
   line-height: 1.5;

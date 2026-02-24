@@ -11,22 +11,21 @@ layout: default
 </button> -->
 <div class="collage-canvas">
   {% for item in site.data.collage %}
-    <a href="{{ item.url }}">
-      <div class="collage-item collage-{{ item.type }}" data-id="{{ item.id }}" style="
-         left: {{ item.x }}px;
-         top: {{ item.y }}px;
-         width: {{ item.width }}px;
-         transform: rotate({{ item.rotation }}deg);
-       ">
-        
-        {% if item.type == "image" %}
-          <img src="{{ item.image }}" alt="">
-        {% elsif item.type == "note" %}
-          <div class="collage-note">
-            {{ item.content | markdownify }}
-          </div>
-        {% endif %}
-      </div>
-    </a>
+    <div class="collage-item collage-{{ item.type }}" data-id="{{ item.id }}" style="
+       left: {{ item.x }}px;
+       top: {{ item.y }}px;
+       width: {{ item.width }}px;
+       transform: rotate({{ item.rotation }}deg);
+     ">
+      
+      {% if item.type == "image" %}
+        <img src="{{ item.image }}" alt="">
+      {% elsif item.type == "note" %}
+        <div class="collage-note">
+          {{ item.content | markdownify }}
+        </div>
+      {% endif %}
+      <a class="collage-link-icon" href="{{ item.url }}">{{ item.emoji }}</a>
+    </div>
   {% endfor %}
 </div>
