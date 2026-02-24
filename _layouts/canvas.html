@@ -25,7 +25,12 @@ layout: default
           {{ item.content | markdownify }}
         </div>
       {% endif %}
-      <a class="collage-link-icon" href="{{ item.url }}">{{ item.emoji }}</a>
+      <a
+        class="collage-link-icon"
+        style="transform: rotate({{ item.rotation | times: -1 }}deg);"
+        href="{{ item.url }}">
+        {{ item.emoji }}
+      </a>
     </div>
   {% endfor %}
 </div>
