@@ -373,35 +373,36 @@
     0 6px 12px rgba(0,0,0,0.15);
 }
 
-.collage-link-icon {
+.collage-link {
   opacity: 0;
   position: absolute;
   top: 8px;
-  right: 8px;
-  width: 24px;
-  height: 24px;
+  right: 10px;
+  width: 50px;
+  height: 30px;
   text-decoration: none;
-  text-align: center;
-  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.collage-link-icon:hover {
+.collage-link:hover {
   text-decoration: none;
 }
 
-.collage-item:hover .collage-link-icon {
+.collage-item:hover .collage-link {
   opacity: 1;
   background: var(--paper-card);
   border: 1px solid var(--paper-border-soft);
-  border-radius: 50%;
+  border-radius: 6px;
 }
 
 @media (hover: none) {
-  .collage-link-icon {
+  .collage-link {
     opacity: 0.85;
     background: var(--paper-card);
     border: 1px solid var(--paper-border-soft);
-    border-radius: 50%;
+    border-radius: 6px;
   }
 }
 

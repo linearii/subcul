@@ -26,10 +26,13 @@ layout: default
         </div>
       {% endif %}
       <a
-        class="collage-link-icon"
+        class="collage-link"
+        target="_blank"
         style="transform: rotate({{ item.rotation | times: -1 }}deg);"
         href="{{ item.url }}">
-        {{ item.emoji }}
+        <span class="collage-link-icon">
+          {{ item.emoji }}
+        </span>
       </a>
     </div>
   {% endfor %}
