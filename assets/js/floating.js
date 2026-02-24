@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 🔹 저장된 위치 불러오기
   const savedPositions = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+  let highestZ = 1;
 
   items.forEach(item => {
 
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (savedPositions[id]) {
       item.style.left = savedPositions[id].x + "px";
       item.style.top = savedPositions[id].y + "px";
+      item.style.zIndex = savedPositions[id].z;
     }
 
     // 브라우저 기본 링크 드래그 방지
@@ -37,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
       offsetY = clientY - rect.top;
 
       item.style.cursor = "grabbing";
-      item.style.zIndex = Date.now();
     };
 
     const duringDrag = (clientX, clientY) => {
@@ -68,11 +69,17 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
 
+    function bringToFront(element) {
+      highestZ += 1;
+      element.style.zIndex = highestZ;
+    }
+
     function savePosition(id, element) {
       const positions = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
       positions[id] = {
         x: parseInt(element.style.left),
-        y: parseInt(element.style.top)
+        y: parseInt(element.style.top),
+        z: parseInt(element.style.zIndex)
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(positions));
     }
@@ -103,6 +110,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.addEventListener("touchend", endDrag);
 
+    // Pointer
+    item.addEventListener('pointerdown', function(e) {
+      bringToFront(item);
+    });
+
     // 클릭 방지
     item.addEventListener("click", function (e) {
       if (moved) {
@@ -110,45 +122,45 @@ document.addEventListener("DOMContentLoaded", function () {
         e.stopImmediatePropagation();
       }
     });
+  });
 
-    document.addEventListener("click", function(e) {
-      if (e.target.id === "collage-reset-btn") {
-        localStorage.removeItem(STORAGE_KEY);
-        location.reload();
-      }
+  document.addEventListener("click", function(e) {
+    if (e.target.id === "collage-reset-btn") {
+      localStorage.removeItem(STORAGE_KEY);
+      location.reload();
+    }
 
-      if (e.target.id === "collage-debug-btn") {
-        dumpCollagePositions();
-      }
-    });
-
-    function dumpCollagePositions() {
-      const items = document.querySelectorAll('.collage-item');
-      const result = {};
-
-      items.forEach(item => {
-        const id = item.dataset.id;
-        if (!id) return;
-
-        const x = parseFloat(item.style.left) || 0;
-        const y = parseFloat(item.style.top) || 0;
-
-        // rotation 추출
-        let rotation = 0;
-        const transform = item.style.transform;
-        if (transform && transform.includes('rotate')) {
-          const match = transform.match(/rotate\(([-\d.]+)deg\)/);
-          if (match) rotation = parseFloat(match[1]);
-        }
-
-        result[id] = {
-          x,
-          y,
-          rotation
-        };
-      });
-
-      console.log(result);
+    if (e.target.id === "collage-debug-btn") {
+      dumpCollagePositions();
     }
   });
+
+  function dumpCollagePositions() {
+    const items = document.querySelectorAll('.collage-item');
+    const result = {};
+
+    items.forEach(item => {
+      const id = item.dataset.id;
+      if (!id) return;
+
+      const x = parseFloat(item.style.left) || 0;
+      const y = parseFloat(item.style.top) || 0;
+
+      // rotation 추출
+      let rotation = 0;
+      const transform = item.style.transform;
+      if (transform && transform.includes('rotate')) {
+        const match = transform.match(/rotate\(([-\d.]+)deg\)/);
+        if (match) rotation = parseFloat(match[1]);
+      }
+
+      result[id] = {
+        x,
+        y,
+        rotation
+      };
+    });
+
+    console.log(result);
+  }
 });

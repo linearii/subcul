@@ -394,12 +394,12 @@
   clip-path: polygon(100% 100%, 0 100%, 100% 0);
 }
 
-.collage-reset-btn {
+.collage-control {
   display: none;
 }
 
 @media (min-width: $content-width) {
-  .collage-reset-btn {
+  .collage-control {
     display: block;
     background: var(--paper-main);
     color: var(--ink-main);
@@ -410,9 +410,10 @@
     font-size: 13px;
     transition: all 0.2s ease;
     float: right;
+    margin-left: 5px;
   }
 
-  .collage-reset-btn:hover {
+  .collage-control:hover {
     background: var(--accent-tag-hover);
   }
 }

@@ -27,9 +27,29 @@
 
 - id: memo1
   type: note
-  content: 동네 서점 번창 기원 📖
+  content: 🔥 동네 서점 번창 기원 🔥
   url: https://remem.so/
   x: 280
   y: 50
   width: 220
   rotation: 4
+
+- id: memo2
+  type: note
+  content: |
+    틈날 때마다 확인한다.  
+    새 CD 나온 거 없나.. 💿️
+  url: https://sggp.kr/
+  x: 170
+  y: 340
+  width: 220
+  rotation: 3
+
+- id: memo3
+  type: note
+  content: 우리 함께 작은배를 타자 ⛵
+  url: https://jagunbae.com/
+  x: 600
+  y: 340
+  width: 220
+  rotation: -1
