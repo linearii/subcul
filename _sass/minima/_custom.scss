@@ -305,6 +305,8 @@
     position: relative !important;
     left: auto !important;
     top: auto !important;
+    touch-action: pan-y;
+    margin: 0 auto;
   }
 }
 
@@ -347,8 +349,6 @@
     0 3px 4px rgba(0,0,0,0.25),
     inset -2px -3px 4px rgba(0,0,0,0.25),
     inset 2px 2px 4px rgba(255,255,255,0.4);
-
-  z-index: 5;
 }
 
 .collage-item::after {
@@ -394,18 +394,25 @@
   clip-path: polygon(100% 100%, 0 100%, 100% 0);
 }
 
-#collage-reset-btn {
-  background: var(--paper-main);
-  color: var(--ink-main);
-  border: 1px solid var(--paper-divider);
-  padding: 8px 14px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 13px;
-  transition: all 0.2s ease;
-  float: right;
+.collage-reset-btn {
+  display: none;
 }
 
-#collage-reset-btn:hover {
-  background: var(--accent-tag-hover);
+@media (min-width: $content-width) {
+  .collage-reset-btn {
+    display: block;
+    background: var(--paper-main);
+    color: var(--ink-main);
+    border: 1px solid var(--paper-divider);
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s ease;
+    float: right;
+  }
+
+  .collage-reset-btn:hover {
+    background: var(--accent-tag-hover);
+  }
 }
