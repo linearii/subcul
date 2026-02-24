@@ -116,6 +116,39 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.removeItem(STORAGE_KEY);
         location.reload();
       }
+
+      if (e.target.id === "collage-debug-btn") {
+        dumpCollagePositions();
+      }
     });
+
+    function dumpCollagePositions() {
+      const items = document.querySelectorAll('.collage-item');
+      const result = {};
+
+      items.forEach(item => {
+        const id = item.dataset.id;
+        if (!id) return;
+
+        const x = parseFloat(item.style.left) || 0;
+        const y = parseFloat(item.style.top) || 0;
+
+        // rotation 추출
+        let rotation = 0;
+        const transform = item.style.transform;
+        if (transform && transform.includes('rotate')) {
+          const match = transform.match(/rotate\(([-\d.]+)deg\)/);
+          if (match) rotation = parseFloat(match[1]);
+        }
+
+        result[id] = {
+          x,
+          y,
+          rotation
+        };
+      });
+
+      console.log(result);
+    }
   });
 });
