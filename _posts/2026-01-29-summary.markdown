@@ -2,6 +2,7 @@
 layout: post
 title: 1월의 마음
 categories: essay
+tags: [회고]
 ---
 
 ### 시기별 구분
