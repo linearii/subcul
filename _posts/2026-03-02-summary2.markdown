@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 원 배틀 애프터 어나더, 씨너스
+title: 2월의 영화
 categories: review
+tags: [영화]
 ---
 
 ### 원 배틀 애프터 어나더
