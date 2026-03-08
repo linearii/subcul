@@ -26,8 +26,8 @@
 </header>
 <aside class="site-header-drawer">
   <nav class="site-header-drawer-nav">
-    <a class="nav-item" href="/">Home</a>
-    <a class="nav-item" href="/all">All Posts</a>
+    <a class="nav-item" href="/">홈</a>
+    <a class="nav-item" href="/all">긴 글</a>
     <div class="nav-group">
       {%- assign no_display_categories = "twitter_archive" | split: "," -%}
       {%- assign categories = site.categories | sort -%}
@@ -37,9 +37,10 @@
         {%- endunless -%}
       {% endfor %}
     </div>
-    <a class="nav-item" href="/micros">Memos</a>
-    <a class="nav-item" href="/canvas">Canvas</a>
-    <a class="nav-item" href="/about">About</a>
+    <a class="nav-item" href="/micros">짧은 메모</a>
+    <a class="nav-item" href="/canvas">좋아하는 것들</a>
+    <a class="nav-item" href="/messages">방명록</a>
+    <a class="nav-item" href="/about">소개</a>
   </nav>
 </aside>
 <div class="site-header-drawer-backdrop" onclick="toggleSidebar()"></div>
