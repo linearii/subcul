@@ -8,26 +8,6 @@
   width: 250
   rotation: -5
 
-- id: image2
-  type: image
-  image: /assets/collage/마차살.jpg
-  url: https://page.kakao.com/content/60707231
-  emoji: "📖"
-  x: 500
-  y: 120
-  width: 350
-  rotation: -2
-
-- id: image3
-  type: image
-  image: /assets/collage/bible.jpg
-  url: https://youtu.be/PhtvsSo_Ba8?si=-sQIahuhy4aELsrw
-  emoji: "🎵"
-  x: 260
-  y: 150
-  width: 300
-  rotation: 8
-
 - id: memo1
   type: note
   content: 🔥 동네 서점 번창 기원 🔥
@@ -37,6 +17,16 @@
   y: 50
   width: 220
   rotation: 4
+
+- id: image2
+  type: image
+  image: /assets/collage/마차살.jpg
+  url: https://page.kakao.com/content/60707231
+  emoji: "📖"
+  x: 500
+  y: 120
+  width: 350
+  rotation: -2
 
 - id: memo2
   type: note
@@ -50,6 +40,16 @@
   width: 220
   rotation: 3
 
+- id: image3
+  type: image
+  image: /assets/collage/bible.jpg
+  url: https://youtu.be/PhtvsSo_Ba8?si=-sQIahuhy4aELsrw
+  emoji: "🎵"
+  x: 260
+  y: 150
+  width: 300
+  rotation: 8
+
 - id: memo3
   type: note
   content: 우리 함께 작은배를 타자
@@ -59,3 +59,13 @@
   y: 340
   width: 220
   rotation: -1
+
+- id: image4
+  type: image
+  image: /assets/collage/minsoo.jpg
+  url: https://youtu.be/BLElZaqQxE4?si=_QtdLEjTMIrpTOt8
+  emoji: "🎵"
+  x: -10
+  y: 420
+  width: 400
+  rotation: 1
