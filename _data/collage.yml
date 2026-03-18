@@ -69,3 +69,13 @@
   y: 420
   width: 400
   rotation: 1
+
+- id: memo4
+  type: note
+  content: 클라리넷, 여러 가지 소리의 한숨
+  url: https://www.youtube.com/watch?v=SyEsRCWMDL0
+  emoji: "🎼"
+  x: -15
+  y: 650
+  width: 220
+  rotation: -1
