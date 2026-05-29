@@ -79,3 +79,13 @@
   y: 650
   width: 220
   rotation: -1
+
+- id: memo5
+  type: note
+  content: 나는 배삼식 각본을 사랑하는 것일까 강필석 배우를 사랑하는 것일까 햄릿 자체를 사랑하는 것일까 아마 셋 다겠지
+  url: https://www.youtube.com/watch?v=j68Yz_pPm4Y
+  emoji: "🎭"
+  x: 403
+  y: 430
+  width: 220
+  rotation: -1
