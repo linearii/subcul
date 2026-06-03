@@ -46,15 +46,42 @@ layout: default
 
   {%- include iine.html -%}
 
+  {% assign visible_posts = site.posts
+  | where_exp: "item", "item.hidden != true"
+  | reverse %}
+  {% assign current_index = nil %}
+
+  {% for p in visible_posts %}
+    {% if p.url == page.url %}
+      {% assign current_index = forloop.index0 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign prev_page = nil %}
+  {% assign next_page = nil %}
+
+  {% if current_index > 0 %}
+    {% assign prev_index = current_index | minus: 1 %}
+    {% assign prev_page = visible_posts[prev_index] %}
+  {% endif %}
+
+  {% assign last_index = visible_posts.size | minus: 1 %}
+  {% if current_index < last_index %}
+    {% assign next_index = current_index | plus: 1 %}
+    {% assign next_page = visible_posts[next_index] %}
+  {% endif %}
+
   <div class="page-navigation">
-    {% if page.previous.url %}
-      <a class="page-navigation-prev" href="{{ page.previous.url }}">
-        <span class="page-navigation-title">&laquo; {{ page.previous.title }}</span>
+    {% if prev_page %}
+      <a class="page-navigation-prev" href="{{ prev_page.url }}">
+        <span class="page-navigation-title">&laquo; {{ prev_page.title }}</span>
       </a>
     {% endif %}
-    {% if page.next.url %}
-      <a class="page-navigation-next" href="{{ page.next.url }}">
-        <span class="page-navigation-title">{{ page.next.title }} &raquo;</span>
+
+    {% if next_page %}
+      <a class="page-navigation-next" href="{{ next_page.url }}">
+        <span class="page-navigation-title">{{ next_page.title }} &raquo;</span>
       </a>
     {% endif %}
   </div>
