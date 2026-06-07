@@ -2,7 +2,6 @@
 layout: post
 title: 근황
 categories: essay
-hidden: true
 disable_search: true
 ---
 
