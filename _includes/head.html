@@ -33,6 +33,6 @@
   {% else %}
     <meta property="og:image" content="{{ first_img_src | relative_url }}" />
   {% endif %}
-  <meta property="og:description" content="{{ page.excerpt | default: site.description | escape }}" />
+  <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | default: site.description | escape }}" />
   <meta property="og:site_name" content="{{ site.title | escape }}" />
 </head>
