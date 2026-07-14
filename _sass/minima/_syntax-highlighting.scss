@@ -1,0 +1,30 @@
+// 기존 Minima 테마의 하이라이팅을 완전히 무력화하고 내가 정의한 톤만 사용
+div.highlighter-rouge, 
+pre.highlight {
+  background-color: var(--highlight-bg);
+  color: var(--highlight-text);
+  border-radius: 6px;
+  overflow: hidden;
+
+  // 가로 스크롤 제거 및 자동 줄바꿈 (이전 단계 적용분)
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: visible;
+
+  // 내부 하이라이팅 색상 제거
+  span {
+    color: inherit !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+  }
+}
+
+/* 백틱 1개로 만든 인라인 코드 블록 스타일링 */
+code.highlighter-rouge {
+  background-color: var(--highlight-bg);
+  color: var(--highlight-text);
+  padding: 2px 6px;          /* 본문 흐름에 방해 안 되게 좁은 여백 */
+  border-radius: 4px;        /* 모서리 살짝 둥글게 */
+  font-size: 0.9em;          /* 본문 글자 크기와 밸런스 맞추기 */
+  word-break: break-word;    /* 본문 끝에서 자연스럽게 줄바꿈 */
+}
