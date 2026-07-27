@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 캣츠랩 한국 퀴어문학 강의 아카이브
-categories: essay
+categories: memo
 ---
 
 ### 1주차. 포스트페미니즘과 퀴어의 시민화

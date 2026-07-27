@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 길을 잃은 면접관
-categories: try
+categories: essay
 ---
 
 <div class="image-row">

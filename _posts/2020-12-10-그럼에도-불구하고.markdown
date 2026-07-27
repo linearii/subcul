@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 그럼에도 불구하고
-categories: try
+categories: essay
 tags: [창작]
 ---
 

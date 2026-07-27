@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 이 성장은 제가 원하는 성장이 아니옵고
-categories: try
+categories: essay
 ---
 
 <div class="image-row">

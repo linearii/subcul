@@ -1,6 +1,6 @@
 ---
 layout: tweets_archive
-categories: try
+categories: memo
 subdir: twitter_archive
 from: 2020
 to: 2025

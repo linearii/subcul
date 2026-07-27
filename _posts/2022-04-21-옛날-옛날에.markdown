@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 박 할머니의 감기 낫는 법
-categories: try
+categories: essay
 tags: [창작]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 고상지 신년 콘서트 <Adventure 2018>
-categories: essay
+categories: review
 ---
 
 <img src="/thumbnails/180307/고상지콘서트.png" width="500" />

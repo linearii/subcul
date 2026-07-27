@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WTM Ambassador 가 되었습니다
-categories: try
+categories: essay
 ---
 
 <img src="/thumbnails/wtm_ambassador.png" width="300" />
