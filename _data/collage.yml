@@ -13,20 +13,10 @@
   content: 🔥 동네 서점 번창 기원 🔥
   url: https://remem.so/
   emoji: "📖"
-  x: 280
-  y: 50
+  x: 300
+  y: 225
   width: 220
   rotation: 4
-
-- id: image2
-  type: image
-  image: /assets/collage/마차살.jpg
-  url: https://page.kakao.com/content/60707231
-  emoji: "📖"
-  x: 500
-  y: 120
-  width: 350
-  rotation: -2
 
 - id: memo2
   type: note
@@ -42,13 +32,13 @@
 
 - id: image3
   type: image
-  image: /assets/collage/bible.jpg
-  url: https://youtu.be/PhtvsSo_Ba8?si=-sQIahuhy4aELsrw
-  emoji: "🎵"
-  x: 260
-  y: 150
+  image: /assets/collage/peppertones.jpg
+  url: https://www.youtube.com/watch?v=UdV59TOZjBk
+  emoji: "🌀"
+  x: 600
+  y: 100
   width: 300
-  rotation: 8
+  rotation: 2
 
 - id: memo3
   type: note
@@ -56,7 +46,7 @@
   url: https://jagunbae.com/
   emoji: "⛵"
   x: 600
-  y: 340
+  y: 360
   width: 220
   rotation: -1
 
