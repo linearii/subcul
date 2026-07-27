@@ -2,7 +2,7 @@
 layout: post
 title: 마차살 드리븐 독서 1
 categories: review
-tags: [책, 마차살]
+tags: [책]
 ---
 
 다가오는 블챌 마감과 쓸 게 없는 현실⋯. 그래서 남기는 마차살 드리븐 독서 근황.
