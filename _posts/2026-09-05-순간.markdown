@@ -1,8 +1,7 @@
 ---
 layout: post
 categories: essay
-title: |
-  순간
+title: 순간
 ---
 
 
