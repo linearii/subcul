@@ -450,3 +450,52 @@
     background: var(--accent-tag-hover);
   }
 }
+
+/*
+ * Chat
+ */
+
+/* 대화 테이블 스타일 */
+.chat-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.chat-table tr {
+    background: transparent !important;
+}
+
+/* 테이블 셀 공통 스타일 */
+.chat-table td {
+    padding: 2px 8px;
+    vertical-align: top;
+    border: none;
+}
+
+/* 발신자 컬럼 ("나", "친구") - 오른쪽 정렬 */
+.chat-sender {
+    width: 1%;
+    text-align: right;
+    font-weight: bold;
+    white-space: nowrap;
+    border-right: none;
+}
+
+/* 대화 내용 컬럼 - 왼쪽 정렬 및 다중 행 지원 */
+.chat-message {
+    text-align: left;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+/* 모바일 대응 */
+@media (max-width: 480px) {
+    .chat-sender {
+        width: 55px;
+        font-size: 14px;
+    }
+    .chat-message {
+        font-size: 14px;
+    }
+}
