@@ -460,10 +460,12 @@
     width: 100%;
     border-collapse: collapse;
     border: none;
+    display: table !important;
 }
 
 .chat-table tr {
     background: transparent !important;
+    display: table-row !important;
 }
 
 /* 테이블 셀 공통 스타일 */
@@ -480,6 +482,7 @@
     font-weight: bold;
     white-space: nowrap;
     border-right: none;
+    display: table-cell !important;
 }
 
 /* 대화 내용 컬럼 - 왼쪽 정렬 및 다중 행 지원 */
@@ -487,15 +490,15 @@
     text-align: left;
     word-break: break-word;
     white-space: pre-wrap;
+    display: table-cell !important;
 }
 
 /* 모바일 대응 */
 @media (max-width: 480px) {
     .chat-sender {
-        width: 55px;
-        font-size: 14px;
+        font-size: 15px;
     }
     .chat-message {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
